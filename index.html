@@ -3,265 +3,186 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nthabiseng Moloi – Profile</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Nthabiseng Moloi - Resume</title>
+
+    <!-- Link to external CSS -->
+    <link rel="stylesheet" href="styles.css" />
   </head>
 
-  <body class="bg-gray-300">
-    <main class="max-w-xl mx-auto p-4 space-y-6">
-      <!-- ===========================
-          HEADER
-    ============================ -->
-      <header class="bg-white rounded-xl shadow p-4 flex gap-4">
-        <img
-          src="profile.jpg"
-          alt="Profile Photo"
-          class="w-28 h-28 object-cover rounded-xl"
-        />
-
-        <div class="flex flex-col justify-center">
-          <h1 class="text-xl font-bold text-gray-800">Nthabiseng Moloi</h1>
-          <p class="text-sm text-gray-600 mt-1 leading-relaxed">
-            I'm a STEM enthusiast transitioning into a Software Developer —
-            passionate about tech, innovation, and empowering others.
+  <body>
+    <main>
+      <!-- HEADER -->
+      <header class="card header-box">
+        <img src="Project.jpg" alt="Nthabiseng Moloi" />
+        <div>
+          <h1 class="name">Nthabiseng Moloi</h1>
+          <p>
+            I'm a STEM enthusiast transitioning into a Software Developer.
+            Passionate about tech, innovation, and empowering others.
           </p>
         </div>
       </header>
 
-      <!-- ===========================
-          PROFICIENCY
-    ============================ -->
-      <section class="bg-white rounded-xl shadow p-4 space-y-4">
-        <h2 class="text-lg font-bold text-gray-800">Proficiency</h2>
-        <p class="text-sm text-gray-600">Beginner · Intermediate · Advanced</p>
+      <!-- PROFICIENCY -->
+      <section class="card">
+        <h2 class="section-title">Proficiency</h2>
+        <p>Beginner · Intermediate · Advanced</p>
 
-        <!-- Skill Bars -->
-        <div class="space-y-3">
-          <article>
-            <h3 class="text-sm font-medium text-gray-700">JavaScript</h3>
-            <div class="w-full bg-gray-200 rounded-full h-2">
-              <div class="bg-teal-600 h-2 rounded-full w-4/5"></div>
-            </div>
-          </article>
+        <div class="bar-block">
+          <strong>JavaScript</strong>
+          <div class="bar-container">
+            <div class="bar-fill" style="width: 85%"></div>
+          </div>
+        </div>
 
-          <article>
-            <h3 class="text-sm font-medium text-gray-700">React</h3>
-            <div class="w-full bg-gray-200 rounded-full h-2">
-              <div class="bg-teal-600 h-2 rounded-full w-3/4"></div>
-            </div>
-          </article>
+        <div class="bar-block">
+          <strong>React</strong>
+          <div class="bar-container">
+            <div class="bar-fill" style="width: 75%"></div>
+          </div>
+        </div>
 
-          <article>
-            <h3 class="text-sm font-medium text-gray-700">Node.js</h3>
-            <div class="w-full bg-gray-200 rounded-full h-2">
-              <div class="bg-teal-600 h-2 rounded-full w-2/3"></div>
-            </div>
-          </article>
+        <div class="bar-block">
+          <strong>Node.js</strong>
+          <div class="bar-container">
+            <div class="bar-fill" style="width: 70%"></div>
+          </div>
+        </div>
 
-          <article>
-            <h3 class="text-sm font-medium text-gray-700">HTML + CSS</h3>
-            <div class="w-full bg-gray-200 rounded-full h-2">
-              <div class="bg-teal-600 h-2 rounded-full w-11/12"></div>
-            </div>
-          </article>
+        <div class="bar-block">
+          <strong>HTML + CSS</strong>
+          <div class="bar-container">
+            <div class="bar-fill" style="width: 90%"></div>
+          </div>
         </div>
       </section>
 
-      <!-- ===========================
-          SKILLS
-    ============================ -->
-      <section class="bg-white rounded-xl shadow p-4">
-        <h2 class="text-lg font-bold text-gray-800">Skills</h2>
-
-        <ul class="flex flex-wrap gap-2 mt-3">
-          <!-- skill chip -->
-          <li
-            class="px-3 py-1.5 bg-gray-100 rounded-full text-sm text-gray-700"
-          >
-            Software development
-          </li>
-          <li
-            class="px-3 py-1.5 bg-gray-100 rounded-full text-sm text-gray-700"
-          >
-            Project Management
-          </li>
-          <li
-            class="px-3 py-1.5 bg-gray-100 rounded-full text-sm text-gray-700"
-          >
-            UI design
-          </li>
-          <li
-            class="px-3 py-1.5 bg-gray-100 rounded-full text-sm text-gray-700"
-          >
-            Problem solving
-          </li>
-          <li
-            class="px-3 py-1.5 bg-gray-100 rounded-full text-sm text-gray-700"
-          >
-            Git & version control
-          </li>
-          <li
-            class="px-3 py-1.5 bg-gray-100 rounded-full text-sm text-gray-700"
-          >
-            Web development
-          </li>
-          <li
-            class="px-3 py-1.5 bg-gray-100 rounded-full text-sm text-gray-700"
-          >
-            Team collaboration
-          </li>
-          <li
-            class="px-3 py-1.5 bg-gray-100 rounded-full text-sm text-gray-700"
-          >
-            Functional programming
-          </li>
-          <li
-            class="px-3 py-1.5 bg-gray-100 rounded-full text-sm text-gray-700"
-          >
-            Science Communication
-          </li>
-        </ul>
+      <!-- SKILLS -->
+      <section class="card">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-tags">
+          <span class="tag">Software development</span>
+          <span class="tag">Project Management</span>
+          <span class="tag">UI design</span>
+          <span class="tag">Problem solving</span>
+          <span class="tag">Git & Version Control</span>
+          <span class="tag">Web development</span>
+          <span class="tag">Team collaboration</span>
+          <span class="tag">Functional programming</span>
+          <span class="tag">Science Communication</span>
+        </div>
       </section>
 
-      <!-- ===========================
-          PROJECTS
-    ============================ -->
-      <section class="space-y-4">
-        <h2 class="text-lg font-bold text-gray-800">Projects</h2>
+      <!-- PROJECTS -->
+      <section>
+        <h2 class="section-title">Projects</h2>
 
-        <div class="space-y-4">
-          <!-- CARD -->
-          <article class="bg-white rounded-xl shadow p-4">
-            <span
-              class="inline-block bg-teal-700 text-white px-2 py-1 text-xs rounded mb-2"
-              >2025</span
-            >
-            <h3 class="font-bold text-gray-800">Portfolio Website</h3>
-
-            <p class="text-sm text-gray-600 mt-2">
-              Developed a personal portfolio website to showcase my projects and
-              skills.
-            </p>
-
-            <p class="text-sm font-semibold mt-3">Technologies:</p>
-            <p class="text-sm text-gray-700">Semantic HTML, CSS, Tailwind</p>
-
-            <p class="text-sm font-semibold mt-3">Responsibilities:</p>
-            <ul class="text-sm text-gray-700 list-disc ml-5 space-y-1">
-              <li>Designed and implemented the website</li>
-              <li>Ensured responsiveness & accessibility</li>
+        <div class="project-grid">
+          <article class="project-card">
+            <span class="project-year">2025</span>
+            <h3>Portfolio Website</h3>
+            <p>Brief: Developed my portfolio to showcase my work.</p>
+            <p><strong>Tech:</strong> HTML, CSS, Tailwind</p>
+            <ul>
+              <li>Designed and implemented UI</li>
+              <li>Responsive & accessible</li>
             </ul>
           </article>
 
-          <!-- Repeat for each project... -->
-          <!-- SECOND PROJECT -->
-          <article class="bg-white rounded-xl shadow p-4">
-            <span
-              class="inline-block bg-teal-700 text-white px-2 py-1 text-xs rounded mb-2"
-              >2025</span
-            >
-            <h3 class="font-bold text-gray-800">Responsive Layout Project</h3>
-
-            <p class="text-sm text-gray-600 mt-2">
-              Created a responsive footer and matched the layout to the given
-              reference.
-            </p>
-
-            <p class="text-sm font-semibold mt-3">Technologies:</p>
-            <p class="text-sm text-gray-700">
-              CSS Variables, Grid, Flexbox, Media Queries
-            </p>
-
-            <p class="text-sm font-semibold mt-3">Responsibilities:</p>
-            <ul class="text-sm text-gray-700 list-disc ml-5 space-y-1">
-              <li>Real-time data synchronization</li>
-              <li>User interface & authentication</li>
+          <article class="project-card">
+            <span class="project-year">2025</span>
+            <h3>Responsive Layout Project</h3>
+            <p>Brief: Built responsive footer layout.</p>
+            <p><strong>Tech:</strong> CSS Grid, Flexbox</p>
+            <ul>
+              <li>Synchronized UI elements</li>
+              <li>Improved authentication UI</li>
             </ul>
           </article>
-
-          <!-- THIRD & FOURTH PROJECTS OMITTED FOR LENGTH BUT FOLLOW SAME STRUCTURE -->
         </div>
       </section>
 
-      <!-- ===========================
-          EDUCATION
-    ============================ -->
-      <section class="bg-white rounded-xl shadow p-4 space-y-4">
-        <h2 class="text-lg font-bold text-gray-800">Education</h2>
+      <!-- EDUCATION -->
+      <section class="card">
+        <h2 class="section-title">Education</h2>
 
-        <article class="border rounded-xl p-4">
-          <span class="text-xs bg-orange-500 text-white px-2 py-1 rounded"
-            >Most Recent</span
-          >
-          <h3 class="font-bold text-gray-800 mt-2">CodeSpace Academy</h3>
-          <p class="text-sm text-gray-600">Software Development | Full-time</p>
-          <ul class="list-disc ml-5 text-sm text-gray-700 mt-2 space-y-1">
-            <li>Focused on React and JavaScript</li>
-            <li>Collaborated on real projects</li>
-            <li>Hands-on experience with modern tools</li>
+        <article class="education-item">
+          <span class="badge">MOST RECENT</span>
+          <h3>CodeSpace Academy</h3>
+          <p>Software Development (2025 - 2026)</p>
+          <ul>
+            <li>Focused on React</li>
+            <li>Real projects</li>
+            <li>Modern tools</li>
           </ul>
         </article>
 
-        <!-- Repeat for other education entries... -->
+        <article class="education-item">
+          <h3>CPUT</h3>
+          <p>Mechanical Engineering (2019 - 2022)</p>
+          <ul>
+            <li>Mechanical systems</li>
+            <li>Product development</li>
+          </ul>
+        </article>
+
+        <article class="education-item">
+          <h3>Hudson Park High</h3>
+          <p>Matric (2014 - 2018)</p>
+          <ul>
+            <li>STEM activities</li>
+          </ul>
+        </article>
       </section>
 
-      <!-- ===========================
-          TOOLS
-    ============================ -->
-      <section class="bg-white rounded-xl shadow p-4">
-        <h2 class="text-lg font-bold text-gray-800">Tools</h2>
+      <!-- TOOLS -->
+      <section class="card">
+        <h2 class="section-title">Tools</h2>
 
-        <div class="grid grid-cols-3 gap-4 mt-4 text-center">
-          <div>
-            <h3 class="font-semibold text-sm">Design</h3>
-            <!-- icons here -->
-          </div>
-
-          <div>
-            <h3 class="font-semibold text-sm">Software</h3>
-            <!-- icons here -->
-          </div>
-
-          <div>
-            <h3 class="font-semibold text-sm">Languages</h3>
-            <!-- icons here -->
-          </div>
+        <div class="tools-grid">
+          <div><h3>Design</h3></div>
+          <div><h3>Software</h3></div>
+          <div><h3>Languages</h3></div>
         </div>
       </section>
 
-      <!-- ===========================
-          EXPERIENCE
-    ============================ -->
-      <section class="bg-white rounded-xl shadow p-4 space-y-4">
-        <h2 class="text-lg font-bold text-gray-800">Experience</h2>
+      <!-- EXPERIENCE -->
+      <section class="card">
+        <h2 class="section-title">Experience</h2>
 
-        <article>
-          <span class="text-xs bg-orange-500 text-white px-2 py-1 rounded"
-            >Most Recent</span
-          >
-          <h3 class="font-bold text-gray-800 mt-2">
-            Bookstore Clerk – Readers’ Haven
-          </h3>
-          <ul class="list-disc ml-5 text-sm text-gray-700 mt-2 space-y-1">
-            <li>Organized shelves and displays</li>
-            <li>Assisted customers</li>
-            <li>Handled POS & inventory</li>
+        <article class="experience-item">
+          <span class="badge">MOST RECENT</span>
+          <h3>Bookstore Clerk</h3>
+          <ul>
+            <li>Organized shelves</li>
+            <li>Customer support</li>
+            <li>POS management</li>
           </ul>
         </article>
 
-        <!-- SECOND & THIRD EXPERIENCE FOLLOW SAME PATTERN -->
+        <article class="experience-item">
+          <h3>Sales – Tech Solutions</h3>
+          <ul>
+            <li>Customer service</li>
+            <li>Upselling</li>
+            <li>Team collaboration</li>
+          </ul>
+        </article>
+
+        <article class="experience-item">
+          <h3>Waiter – The Bistro House</h3>
+          <ul>
+            <li>Served customers</li>
+            <li>Promoted specials</li>
+            <li>Food coordination</li>
+          </ul>
+        </article>
       </section>
 
-      <!-- ===========================
-          FOOTER
-    ============================ -->
-      <footer
-        class="bg-orange-500 text-white text-center p-6 rounded-xl shadow"
-      >
-        <p class="font-bold text-lg">
-          Let’s chat! I’m ready to work on exciting projects.
-        </p>
-        <p class="mt-2 text-sm">namesurname@email.com | 072 345 6789</p>
+      <!-- FOOTER -->
+      <footer>
+        Let’s chat! I'm ready to work on exciting projects.
+        <p>email@email.com | 072 345 6789</p>
       </footer>
     </main>
   </body>
