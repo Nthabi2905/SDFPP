@@ -7,10 +7,10 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body class="bg-gray-300">
+  <body class="bg-gray-400">
     <main class="max-w-xl mx-auto p-4 space-y-6">
       <!-- Profile image-->
-      <header class="bg-white rounded-xl shadow p-4 flex gap-4">
+      <header>
         <img
           src="Project.jpg"
           alt="Nthabiseng Moloi"
@@ -18,38 +18,59 @@
         />
 
         <!-- Textbox -->
-        <h1>Nthabiseng Moloi</h1>
-        <p>
-          I'm a STEM enthusiast transitioning into a Software Developer.
-          Passionate about tech, innovation, and empowering others.
-        </p>
+        <div
+          class="flex flex-col justify-center bg-white rounded-xl shadow p-4 flex gap-4"
+        >
+          <h1 class="text-xl font-bold text-gray-800">Nthabiseng Moloi</h1>
+          <p class="text-sm text-gray-600 mt-1 leading-relaxed">
+            I'm a STEM enthusiast transitioning into a Software Developer.
+            Passionate about tech, innovation, and empowering others.
+          </p>
+        </div>
       </header>
 
       <!-- Profiency -->
-      <section>
-        <h2>Proficiency</h2>
+      <section class="bg-white rounded-xl shadow p-4 space-y-4">
+        <h2 class="text-lg font-bold text-gray-800">Proficiency</h2>
 
-        <p>Beginner · Intermediate · Advanced</p>
+        <p class="text-sm text-gray-600">Beginner · Intermediate · Advanced</p>
+        <!-- skill bars -->
+        <div class="space-y-3">
+          <article>
+            <h3 class="text-sm font-medium text-gray-700">JavaScript</h3>
+            <div class="w-full bg-gray-200 rounded-none h-6">
+              <div class="bg-teal-600 h-6 rounded-none w-0"></div>
+            </div>
+          </article>
 
-        <article>
-          <h3>JavaScript</h3>
-          <div>bar</div>
-        </article>
+          <article>
+            <h3 class="text-sm font-medium text-gray-700">React</h3>
+            <div class="w-full bg-gray-200 rounded-none h-6">
+              <div class="bg-teal-600 h-6 rounded-none w-0"></div>
+            </div>
+          </article>
 
-        <article>
-          <h3>React</h3>
-          <div>bar</div>
-        </article>
+          <article>
+            <h3>Node.js</h3>
+            <div class="w-full bg-gray-200 rounded-none h-6">
+              <div class="bg-teal-600 h-6 rounded-none w-0"></div>
+            </div>
+          </article>
 
-        <article>
-          <h3>Node.js</h3>
-          <div>bar</div>
-        </article>
+          <article>
+            <h3>HTML + CSS</h3>
+            <div class="w-full bg-gray-200 rounded-none h-6">
+              <div class="bg-teal-600 h-6 rounded-none w-5/5"></div>
+            </div>
+          </article>
 
-        <article>
-          <h3>HTML + CSS</h3>
-          <div>bar</div>
-        </article>
+          <article>
+            <h3>Tailwind</h3>
+            <div class="w-full bg-gray-200 rounded-none h-6">
+              <div class="bg-teal-600 h-6 rounded-none w-4/5"></div>
+            </div>
+          </article>
+        </div>
       </section>
 
       <!-- Skills -->
