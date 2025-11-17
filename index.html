@@ -5,185 +5,113 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nthabiseng Moloi - Resume</title>
 
-    <!-- Link to external CSS -->
-    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
 
-  <body>
-    <main>
-      <!-- HEADER -->
-      <header class="card header-box">
-        <img src="Project.jpg" alt="Nthabiseng Moloi" />
+  <body class="m-0 font-[Poppins] bg-[#3f3d3d] p-5 flex justify-center">
+    <main class="max-w-[294px] w-full flex flex-col gap-6">
+      <!-- Header -->
+      <header class="flex gap-2 items-start">
         <div>
-          <h1 class="name">Nthabiseng Moloi</h1>
-          <p>
+          <img
+            src="Project.jpg"
+            alt="Nthabiseng Moloi"
+            class="w-[147px] h-[137px] rounded-[12px] top-[18px] left-[43px] object-cover"
+          />
+        </div>
+
+        <div
+          class="bg-[#ffffff] rounded-[12px] p-4 shadow flex flex-col gap-4 w-min-[163px] h-[137px] top-[18px] left-[197px] justify-between"
+        >
+          <h1 class="text-[16px] font-semibold text-black">Nthabiseng Moloi</h1>
+          <p
+            class="text-[10px] text-[#5C5C5C] leading-[1.5] font-normal w-[139px] h-[75px]"
+          >
             I'm a STEM enthusiast transitioning into a Software Developer.
             Passionate about tech, innovation, and empowering others.
           </p>
         </div>
       </header>
 
-      <!-- PROFICIENCY -->
-      <section class="card">
-        <h2 class="section-title">Proficiency</h2>
-        <p>Beginner · Intermediate · Advanced</p>
+      <!-- Proficiency -->
+      <section
+        class="bg-white rounded-[12px] p-[12px] shadow h-[177px] w-[310]"
+      >
+        <h2 class="text-[14px] font-medium text-[#333] mb-3">Proficiency</h2>
+        <p class="text-[10px] font-medium">
+          Beginner · Intermediate · Advanced
+        </p>
 
-        <div class="bar-block">
-          <strong>JavaScript</strong>
-          <div class="bar-container">
-            <div class="bar-fill" style="width: 85%"></div>
+        <div class="flex gap-[17px] mt-3 w-[294px] h-[74px]">
+          <!-- Languages -->
+          <div class="flex flex-col gap-3 w-[59px]">
+            <p class="text-[10px] font-medium text-center w-[54px] h-[10px]">
+              JavaScript
+            </p>
+            <p class="text-[10px] font-medium text-center w-[54px] h-[10px]">
+              React
+            </p>
+            <p class="text-[10px] font-medium text-center w-[54px] h-[10px]">
+              Node.js
+            </p>
+            <p class="text-[10px] font-medium text-center w-[59px] h-[10px]">
+              HTML + CSS
+            </p>
+          </div>
+
+          <!-- Bars -->
+          <div class="flex flex-col gap-3 w-[155px]">
+            <div class="h-[11px] bg-[#4a8b70] rounded-[3px] w-[5px]"></div>
+            <div class="h-[11px] bg-[#4a8b70] rounded-[3px] w-[5px]"></div>
+            <div class="h-[11px] bg-[#4a8b70] rounded-[3px] w-[5px]"></div>
+            <div class="h-[11px] bg-[#4a8b70] rounded-[3px] w-[131px]"></div>
           </div>
         </div>
-
-        <div class="bar-block">
-          <strong>React</strong>
-          <div class="bar-container">
-            <div class="bar-fill" style="width: 75%"></div>
-          </div>
-        </div>
-
-        <div class="bar-block">
-          <strong>Node.js</strong>
-          <div class="bar-container">
-            <div class="bar-fill" style="width: 70%"></div>
-          </div>
-        </div>
-
-        <div class="bar-block">
-          <strong>HTML + CSS</strong>
-          <div class="bar-container">
-            <div class="bar-fill" style="width: 90%"></div>
-          </div>
-        </div>
       </section>
 
-      <!-- SKILLS -->
-      <section class="card">
-        <h2 class="section-title">Skills</h2>
-        <div class="skills-tags">
-          <span class="tag">Software development</span>
-          <span class="tag">Project Management</span>
-          <span class="tag">UI design</span>
-          <span class="tag">Problem solving</span>
-          <span class="tag">Git & Version Control</span>
-          <span class="tag">Web development</span>
-          <span class="tag">Team collaboration</span>
-          <span class="tag">Functional programming</span>
-          <span class="tag">Science Communication</span>
+      <!-- Skills -->
+      <section class="bg-white rounded-[14px] p-4 shadow">
+        <h2 class="text-[1.2rem] font-bold text-[#333] mb-3">Skills</h2>
+
+        <div class="flex flex-wrap gap-2">
+          <span
+            class="px-3 py-1 bg-[#e7f0ec] rounded-full text-[10px] capitalize"
+            >Software development</span
+          >
+          <span
+            class="px-3 py-1 bg-[#e7f0ec] rounded-full text-[10px] capitalize"
+            >Project Management</span
+          >
+          <span
+            class="px-3 py-1 bg-[#e7f0ec] rounded-full text-[10px] capitalize"
+            >UI design</span
+          >
+          <span
+            class="px-3 py-1 bg-[#e7f0ec] rounded-full text-[10px] capitalize"
+            >Problem solving</span
+          >
+          <span
+            class="px-3 py-1 bg-[#e7f0ec] rounded-full text-[10px] capitalize"
+            >Git & Version Control</span
+          >
+          <span
+            class="px-3 py-1 bg-[#e7f0ec] rounded-full text-[10px] capitalize"
+            >Web development</span
+          >
+          <span
+            class="px-3 py-1 bg-[#e7f0ec] rounded-full text-[10px] capitalize"
+            >Team collaboration</span
+          >
+          <span
+            class="px-3 py-1 bg-[#e7f0ec] rounded-full text-[10px] capitalize"
+            >Functional programming</span
+          >
+          <span
+            class="px-3 py-1 bg-[#e7f0ec] rounded-full text-[10px] capitalize"
+            >Science Communication</span
+          >
         </div>
       </section>
-
-      <!-- PROJECTS -->
-      <section>
-        <h2 class="section-title">Projects</h2>
-
-        <div class="project-grid">
-          <article class="project-card">
-            <span class="project-year">2025</span>
-            <h3>Portfolio Website</h3>
-            <p>Brief: Developed my portfolio to showcase my work.</p>
-            <p><strong>Tech:</strong> HTML, CSS, Tailwind</p>
-            <ul>
-              <li>Designed and implemented UI</li>
-              <li>Responsive & accessible</li>
-            </ul>
-          </article>
-
-          <article class="project-card">
-            <span class="project-year">2025</span>
-            <h3>Responsive Layout Project</h3>
-            <p>Brief: Built responsive footer layout.</p>
-            <p><strong>Tech:</strong> CSS Grid, Flexbox</p>
-            <ul>
-              <li>Synchronized UI elements</li>
-              <li>Improved authentication UI</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-
-      <!-- EDUCATION -->
-      <section class="card">
-        <h2 class="section-title">Education</h2>
-
-        <article class="education-item">
-          <span class="badge">MOST RECENT</span>
-          <h3>CodeSpace Academy</h3>
-          <p>Software Development (2025 - 2026)</p>
-          <ul>
-            <li>Focused on React</li>
-            <li>Real projects</li>
-            <li>Modern tools</li>
-          </ul>
-        </article>
-
-        <article class="education-item">
-          <h3>CPUT</h3>
-          <p>Mechanical Engineering (2019 - 2022)</p>
-          <ul>
-            <li>Mechanical systems</li>
-            <li>Product development</li>
-          </ul>
-        </article>
-
-        <article class="education-item">
-          <h3>Hudson Park High</h3>
-          <p>Matric (2014 - 2018)</p>
-          <ul>
-            <li>STEM activities</li>
-          </ul>
-        </article>
-      </section>
-
-      <!-- TOOLS -->
-      <section class="card">
-        <h2 class="section-title">Tools</h2>
-
-        <div class="tools-grid">
-          <div><h3>Design</h3></div>
-          <div><h3>Software</h3></div>
-          <div><h3>Languages</h3></div>
-        </div>
-      </section>
-
-      <!-- EXPERIENCE -->
-      <section class="card">
-        <h2 class="section-title">Experience</h2>
-
-        <article class="experience-item">
-          <span class="badge">MOST RECENT</span>
-          <h3>Bookstore Clerk</h3>
-          <ul>
-            <li>Organized shelves</li>
-            <li>Customer support</li>
-            <li>POS management</li>
-          </ul>
-        </article>
-
-        <article class="experience-item">
-          <h3>Sales – Tech Solutions</h3>
-          <ul>
-            <li>Customer service</li>
-            <li>Upselling</li>
-            <li>Team collaboration</li>
-          </ul>
-        </article>
-
-        <article class="experience-item">
-          <h3>Waiter – The Bistro House</h3>
-          <ul>
-            <li>Served customers</li>
-            <li>Promoted specials</li>
-            <li>Food coordination</li>
-          </ul>
-        </article>
-      </section>
-
-      <!-- FOOTER -->
-      <footer>
-        Let’s chat! I'm ready to work on exciting projects.
-        <p>email@email.com | 072 345 6789</p>
-      </footer>
     </main>
   </body>
 </html>
