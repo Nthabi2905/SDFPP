@@ -3,113 +3,106 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nthabiseng Moloi - Resume</title>
-
     <script src="https://cdn.tailwindcss.com"></script>
+    <title>Nthabiseng Moloi</title>
   </head>
 
-  <body class="m-0 font-[Poppins] bg-[#3f3d3d] p-5 flex justify-center">
-    <main class="max-w-[294px] w-full flex flex-col gap-6">
+  <body class="bg-[#3F3D3D] flex justify-center">
+    <main
+      class="w-full max-w-[402px] xl:max-w-[1440px] mx-auto px-4 xl:px-[60px] py-6 xl:py-[60px]"
+    >
       <!-- Header -->
-      <header class="flex gap-2 items-start">
-        <div>
-          <img
-            src="Project.jpg"
-            alt="Nthabiseng Moloi"
-            class="w-[147px] h-[137px] rounded-[12px] top-[18px] left-[43px] object-cover"
-          />
+      <section
+        class="grid grid-cols-1 xl:grid-cols-[320px_2fr] gap-6 xl:gap-[38px] items-start"
+      >
+        <!-- Profile Image -->
+        <div
+          class="w-full h-[300.1px] rounded-[29.04px] overflow-hidden flex-shrink-0"
+        >
+          <img src="Project.jpg" class="w-full h-full object-cover" />
         </div>
 
+        <!-- Right Block -->
         <div
-          class="bg-[#ffffff] rounded-[12px] p-4 shadow flex flex-col gap-4 w-min-[163px] h-[137px] top-[18px] left-[197px] justify-between"
+          class="bg-white rounded-[29.04px] p-6 xl:p-[38px] flex flex-col gap-4 xl:gap-[18px] h-[300.1px]"
         >
-          <h1 class="text-[16px] font-semibold text-black">Nthabiseng Moloi</h1>
-          <p
-            class="text-[10px] text-[#5C5C5C] leading-[1.5] font-normal w-[139px] h-[75px]"
-          >
-            I'm a STEM enthusiast transitioning into a Software Developer.
+          <h1 class="text-[36px] xl:text-[32px] font-semibold text-black">
+            Nthabiseng Moloi
+          </h1>
+          <p class="text-[22px] xl:text-[16px] leading-[1.6] text-[#3f3d3d]">
+            <strong
+              >Educator | Science Communicator | Beginner Software
+              Developer</strong
+            >
+            <br />I'm a STEM enthusiast transitioning into a Software Developer.
             Passionate about tech, innovation, and empowering others.
           </p>
         </div>
-      </header>
-
-      <!-- Proficiency -->
-      <section
-        class="bg-white rounded-[12px] p-[12px] shadow h-[177px] w-[310]"
-      >
-        <h2 class="text-[14px] font-medium text-[#333] mb-3">Proficiency</h2>
-        <p class="text-[10px] font-medium">
-          Beginner · Intermediate · Advanced
-        </p>
-
-        <div class="flex gap-[17px] mt-3 w-[294px] h-[74px]">
-          <!-- Languages -->
-          <div class="flex flex-col gap-3 w-[59px]">
-            <p class="text-[10px] font-medium text-center w-[54px] h-[10px]">
-              JavaScript
-            </p>
-            <p class="text-[10px] font-medium text-center w-[54px] h-[10px]">
-              React
-            </p>
-            <p class="text-[10px] font-medium text-center w-[54px] h-[10px]">
-              Node.js
-            </p>
-            <p class="text-[10px] font-medium text-center w-[59px] h-[10px]">
-              HTML + CSS
-            </p>
-          </div>
-
-          <!-- Bars -->
-          <div class="flex flex-col gap-3 w-[155px]">
-            <div class="h-[11px] bg-[#4a8b70] rounded-[3px] w-[5px]"></div>
-            <div class="h-[11px] bg-[#4a8b70] rounded-[3px] w-[5px]"></div>
-            <div class="h-[11px] bg-[#4a8b70] rounded-[3px] w-[5px]"></div>
-            <div class="h-[11px] bg-[#4a8b70] rounded-[3px] w-[131px]"></div>
-          </div>
-        </div>
       </section>
 
-      <!-- Skills -->
-      <section class="bg-white rounded-[14px] p-4 shadow">
-        <h2 class="text-[1.2rem] font-bold text-[#333] mb-3">Skills</h2>
+      <!-- ========== PROFICIENCY + SKILLS ROW ========== -->
+      <section
+        class="grid grid-cols-1 xl:grid-cols-2 gap-6 xl:gap-[38px] mt-6 xl:mt-[38px]"
+      >
+        <!-- PROFICIENCY CARD -->
+        <div class="bg-white rounded-[24px] p-6 xl:p-[38px]">
+          <h2 class="text-[22px] font-semibold mb-4">Proficiency</h2>
 
-        <div class="flex flex-wrap gap-2">
-          <span
-            class="px-3 py-1 bg-[#e7f0ec] rounded-full text-[10px] capitalize"
-            >Software development</span
-          >
-          <span
-            class="px-3 py-1 bg-[#e7f0ec] rounded-full text-[10px] capitalize"
-            >Project Management</span
-          >
-          <span
-            class="px-3 py-1 bg-[#e7f0ec] rounded-full text-[10px] capitalize"
-            >UI design</span
-          >
-          <span
-            class="px-3 py-1 bg-[#e7f0ec] rounded-full text-[10px] capitalize"
-            >Problem solving</span
-          >
-          <span
-            class="px-3 py-1 bg-[#e7f0ec] rounded-full text-[10px] capitalize"
-            >Git & Version Control</span
-          >
-          <span
-            class="px-3 py-1 bg-[#e7f0ec] rounded-full text-[10px] capitalize"
-            >Web development</span
-          >
-          <span
-            class="px-3 py-1 bg-[#e7f0ec] rounded-full text-[10px] capitalize"
-            >Team collaboration</span
-          >
-          <span
-            class="px-3 py-1 bg-[#e7f0ec] rounded-full text-[10px] capitalize"
-            >Functional programming</span
-          >
-          <span
-            class="px-3 py-1 bg-[#e7f0ec] rounded-full text-[10px] capitalize"
-            >Science Communication</span
-          >
+          <div class="text-[14px] mb-4 flex gap-4">
+            <span>Beginner</span>
+            <span>Intermediate</span>
+            <span>Advance*</span>
+          </div>
+
+          <!-- Skills list -->
+          <div class="grid grid-cols-[120px_1fr] gap-y-4">
+            <span class="text-[14px]">JavaScript</span>
+            <div class="h-[10px] w-full bg-[#4a8b70] rounded-[6px]"></div>
+
+            <span class="text-[14px]">React</span>
+            <div class="h-[10px] w-[70%] bg-[#4a8b70] rounded-[6px]"></div>
+
+            <span class="text-[14px]">Node.js</span>
+            <div class="h-[10px] w-[40%] bg-[#4a8b70] rounded-[6px]"></div>
+
+            <span class="text-[14px] whitespace-nowrap">HTML + CSS</span>
+            <div class="h-[10px] w-[90%] bg-[#4a8b70] rounded-[6px]"></div>
+          </div>
+        </div>
+
+        <!-- SKILLS CARD -->
+        <div class="bg-white rounded-[24px] p-6 xl:p-[38px]">
+          <h2 class="text-[22px] font-semibold mb-4">Skills</h2>
+
+          <div class="flex flex-wrap gap-3">
+            <span class="px-4 py-2 text-[14px] rounded-full bg-[#e7f0ec]"
+              >Software Development</span
+            >
+            <span class="px-4 py-2 text-[14px] rounded-full bg-[#e7f0ec]"
+              >Agile</span
+            >
+            <span class="px-4 py-2 text-[14px] rounded-full bg-[#e7f0ec]"
+              >UI Design</span
+            >
+            <span class="px-4 py-2 text-[14px] rounded-full bg-[#e7f0ec]"
+              >Problem Solving</span
+            >
+            <span class="px-4 py-2 text-[14px] rounded-full bg-[#e7f0ec]"
+              >Git And Version Control</span
+            >
+            <span class="px-4 py-2 text-[14px] rounded-full bg-[#e7f0ec]"
+              >Web Development</span
+            >
+            <span class="px-4 py-2 text-[14px] rounded-full bg-[#e7f0ec]"
+              >Team Collaboration</span
+            >
+            <span class="px-4 py-2 text-[14px] rounded-full bg-[#e7f0ec]"
+              >Functional Programming</span
+            >
+            <span class="px-4 py-2 text-[14px] rounded-full bg-[#e7f0ec]"
+              >RESTful APIs</span
+            >
+          </div>
         </div>
       </section>
     </main>
