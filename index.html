@@ -13,137 +13,185 @@
     >
       <!-- Header -->
       <section
-        class="grid grid-cols-1 xl:grid-cols-[320px_2fr] gap-6 xl:gap-[38px] items-start"
+        class="grid grid-cols-1 xl:grid-cols-[320px_1fr] gap-6 xl:gap-[38px] items-start xl:h-[300px]"
       >
         <!-- Profile Image -->
-        <div
-          class="w-full h-[300.1px] rounded-[29.04px] overflow-hidden flex-shrink-0"
-        >
+        <div class="w-full h-full rounded-[29px] overflow-hidden">
           <img src="Project.jpg" class="w-full h-full object-cover" />
         </div>
 
-        <!-- Right Block -->
+        <!-- Profile Text Block -->
         <div
-          class="bg-white rounded-[29.04px] p-6 xl:p-[38px] flex flex-col gap-4 xl:gap-[18px] h-[300.1px]"
+          class="bg-white rounded-[29px] p-6 xl:p-[38px] flex flex-col gap-4 xl:gap-[18px] h-full"
         >
-          <h1 class="text-[36px] xl:text-[32px] font-semibold text-black">
+          <h1 class="text-[28px] xl:text-[32px] font-semibold text-black">
             Nthabiseng Moloi
           </h1>
-          <p class="text-[22px] xl:text-[16px] leading-[1.6] text-[#3f3d3d]">
+
+          <p class="text-[18px] xl:text-[16px] leading-[1.6] text-[#3f3d3d]">
             <strong
               >Educator | Science Communicator | Beginner Software
               Developer</strong
-            >
-            <br />I'm a STEM enthusiast transitioning into a Software Developer.
+            ><br />
+            I'm a STEM enthusiast transitioning into a Software Developer.
             Passionate about tech, innovation, and empowering others.
           </p>
         </div>
       </section>
 
-      <!-- Proficiency + Skills Row -->
       <section
         class="grid grid-cols-1 xl:grid-cols-2 gap-6 xl:gap-[46.21px] mt-6 xl:mt-[38px]"
       >
-        <!-- Profieciency Card -->
-        <div class="bg-white rounded-[29.04px] p-6 xl:p-[38px]">
-          <h2 class="text-[33.88px] font-semibold mb-4">Proficiency</h2>
+        <!--  Proficiency Section -->
 
-          <div class="text-[24.2px] font-medium mb-4 flex gap-4">
+        <div class="bg-white rounded-[29.04px] p-6 xl:p-[38px]">
+          <h2 class="text-[28px] xl:text-[33.88px] font-semibold mb-4">
+            Proficiency
+          </h2>
+
+          <!-- Levels -->
+          <div class="text-[18px] xl:text-[24.2px] font-medium mb-4 flex gap-4">
             <span>Beginner</span>
             <span>Intermediate</span>
             <span>Advance*</span>
           </div>
 
-          <!-- Skills list -->
+          <!-- Skill list  -->
           <div
-            class="grid grid-cols-[120px_1fr] gap-y-8 w-[509.09px] gap-[46.21px]"
+            class="grid grid-cols-[120px_1fr] gap-y-6 xl:gap-y-8 xl:gap-[46.21px] w-full"
           >
-            <span class="text-[24.2px] font-medium">JavaScript</span>
-            <div class="h-[26.62px] w-[10%] bg-[#4a8b70] rounded-[6px]"></div>
-
-            <span class="text-[24.2px] font-medium">React</span>
-            <div class="h-[26.62px] w-[10%] bg-[#4a8b70] rounded-[6px]"></div>
-
-            <span class="text-[24.2px] font-medium">Node.js</span>
-            <div class="h-[26.62px] w-[30%] bg-[#4a8b70] rounded-[6px]"></div>
-
-            <span class="text-[24.2px] font-medium whitespace-nowrap"
-              >HTML + CSS</span
+            <!-- JavaScript -->
+            <span class="text-[18px] xl:text-[24.2px] font-medium"
+              >JavaScript</span
             >
-            <div class="h-[26.62px] w-[90%] bg-[#4a8b70] rounded-[6px]"></div>
+            <div class="h-[20px] xl:h-[26.62px] bg-[#e5e5e5] rounded-[6px]">
+              <div class="h-full bg-[#4a8b70] rounded-[6px] w-[20%]"></div>
+            </div>
+
+            <!-- React -->
+            <span class="text-[18px] xl:text-[24.2px] font-medium">React</span>
+            <div class="h-[20px] xl:h-[26.62px] bg-[#e5e5e5] rounded-[6px]">
+              <div class="h-full bg-[#4a8b70] rounded-[6px] w-[20%]"></div>
+            </div>
+
+            <!-- Node.js -->
+            <span class="text-[18px] xl:text-[24.2px] font-medium"
+              >Node.js</span
+            >
+            <div class="h-[20px] xl:h-[26.62px] bg-[#e5e5e5] rounded-[6px]">
+              <div class="h-full bg-[#4a8b70] rounded-[6px] w-[30%]"></div>
+            </div>
+
+            <!-- HTML + CSS -->
+            <span
+              class="text-[18px] xl:text-[24.2px] font-medium whitespace-nowrap"
+            >
+              HTML + CSS
+            </span>
+            <div class="h-[20px] xl:h-[26.62px] bg-[#e5e5e5] rounded-[6px]">
+              <div class="h-full bg-[#4a8b70] rounded-[6px] w-[85%]"></div>
+            </div>
           </div>
         </div>
 
         <!-- Skills -->
+
         <div class="bg-white rounded-[29.04px] p-6 xl:p-[38px]">
-          <h2 class="text-[33.88px] font-semibold mb-4">Skills</h2>
+          <h2 class="text-[28px] xl:text-[33.88px] font-semibold mb-4">
+            Skills
+          </h2>
 
           <div class="flex flex-wrap gap-3">
-            <span class="px-4 py-2 text-[24.2px] rounded-full bg-[#e7f0ec]"
-              >Software Development</span
+            <span
+              class="px-4 py-2 text-[18px] xl:text-[24.2px] rounded-full bg-[#e7f0ec]"
             >
-            <span class="px-4 py-2 text-[24.2px] rounded-full bg-[#e7f0ec]"
-              >Project Management</span
-            >
-            <span class="px-4 py-2 text-[24.2px] rounded-full bg-[#e7f0ec]"
-              >Stakeholder Relations</span
-            >
-            <span class="px-4 py-2 text-[24.2px] rounded-full bg-[#e7f0ec]"
-              >UI Design</span
-            >
-            <span class="px-4 py-2 text-[24.2px] rounded-full bg-[#e7f0ec]"
-              >Problem Solving</span
-            >
-            <span class="px-4 py-2 text-[24.2px] rounded-full bg-[#e7f0ec]"
-              >Git And Version Control</span
-            >
-            <span class="px-4 py-2 text-[24.2px] rounded-full bg-[#e7f0ec]"
-              >Web Development</span
-            >
-            <span class="px-4 py-2 text-[24.2px] rounded-full bg-[#e7f0ec]"
-              >Team Collaboration</span
-            >
-            <span class="px-4 py-2 text-[24.2px] rounded-full bg-[#e7f0ec]"
-              >Functional Programming</span
-            >
-            <span class="px-4 py-2 text-[24.2px] rounded-full bg-[#e7f0ec]"
-              >Public Speaking
+              Software Development
             </span>
-            <span class="px-4 py-2 text-[24.2px] rounded-full bg-[#e7f0ec]"
-              >Science Communication</span
+            <span
+              class="px-4 py-2 text-[18px] xl:text-[24.2px] rounded-full bg-[#e7f0ec]"
             >
+              Project Management
+            </span>
+            <span
+              class="px-4 py-2 text-[18px] xl:text-[24.2px] rounded-full bg-[#e7f0ec]"
+            >
+              Stakeholder Relations
+            </span>
+            <span
+              class="px-4 py-2 text-[18px] xl:text-[24.2px] rounded-full bg-[#e7f0ec]"
+            >
+              UI Design
+            </span>
+            <span
+              class="px-4 py-2 text-[18px] xl:text-[24.2px] rounded-full bg-[#e7f0ec]"
+            >
+              Problem Solving
+            </span>
+            <span
+              class="px-4 py-2 text-[18px] xl:text-[24.2px] rounded-full bg-[#e7f0ec]"
+            >
+              Git And Version Control
+            </span>
+            <span
+              class="px-4 py-2 text-[18px] xl:text-[24.2px] rounded-full bg-[#e7f0ec]"
+            >
+              Web Development
+            </span>
+            <span
+              class="px-4 py-2 text-[18px] xl:text-[24.2px] rounded-full bg-[#e7f0ec]"
+            >
+              Team Collaboration
+            </span>
+            <span
+              class="px-4 py-2 text-[18px] xl:text-[24.2px] rounded-full bg-[#e7f0ec]"
+            >
+              Functional Programming
+            </span>
+            <span
+              class="px-4 py-2 text-[18px] xl:text-[24.2px] rounded-full bg-[#e7f0ec]"
+            >
+              Public Speaking
+            </span>
+            <span
+              class="px-4 py-2 text-[18px] xl:text-[24.2px] rounded-full bg-[#e7f0ec]"
+            >
+              Science Communication
+            </span>
           </div>
         </div>
       </section>
 
-      <!-- Projects Section -->
+      <!-- Project Section -->
+
       <section
         class="bg-white rounded-[29.04px] p-6 xl:p-[38px] mt-10 xl:mt-[60px]"
       >
         <h2
-          class="text-[33.88px] xl:text-[28px] font-medium text-[#000000] mb-4 xl:mb-[28px] text-center"
+          class="text-[28px] xl:text-[33.88px] font-medium text-[#000000] mb-4 xl:mb-[28px] text-center"
         >
           Projects
         </h2>
 
-        <!-- Grid -->
+        <!-- Responsive Grid -->
         <div
           class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-[14.53px]"
         >
           <!-- Project 1 -->
+
           <article
-            class="flex flex-col justify-start items-start p-[20px] gap-[12px] rounded-[18px] bg-[#E7F0EC] min-h-[330px] transition-all duration-300 hover:bg-[#4A8B70] hover:-translate-y-[4px] hover:shadow-[0_4px_12px_rgba(0,0,0,0.15)] w-[280px] h-[581px]"
+            class="flex flex-col justify-start items-start p-[20px] gap-[12px] rounded-[18px] bg-[#E7F0EC] min-h-[330px] transition-all duration-300 hover:bg-[#4A8B70] hover:-translate-y-[4px] hover:shadow-[0_4px_12px_rgba(0,0,0,0.15)]"
           >
             <div class="flex justify-between items-center w-full">
-              <span class="text-[24.2px] font-medium text-[#000000] hover: text"
+              <span
+                class="text-[20px] xl:text-[24.2px] font-medium text-[#000000]"
                 >2025</span
               >
-              <span
-                ><img src="heart.png" alt="heart icon" class="h-5 w-5"
-              /></span>
+              <img src="heart.png" alt="heart icon" class="h-5 w-5" />
             </div>
 
-            <h3 class="text-[24.2px] font-semibold text-[#000000]">
+            <h3
+              class="text-[20px] xl:text-[24.2px] font-semibold text-[#000000]"
+            >
               <a
                 href="https://github.com/Nthabi2905/SDFPP"
                 class="hover:underline"
@@ -152,40 +200,41 @@
               </a>
             </h3>
 
-            <p class="text-[19.36px] font-medium text-[#000000] leading-[1.4]">
-              <strong>Brief:</strong> Developed a personal portfolio website to
-              showcase my projects, skills, and experience, using a Figma design
-              as the primary reference.
+            <p
+              class="text-[16px] xl:text-[19.36px] font-medium text-[#000000] leading-[1.4]"
+            >
+              <strong>Brief:</strong> Developed a personal portfolio website
+              using a Figma design as the primary reference.
             </p>
 
-            <p class="text-[19.36px] font-medium text-[#000000]">
-              <strong>Technologies:</strong> Flexbox, CSS Grid, Tailwind CSS,
+            <p class="text-[16px] xl:text-[19.36px] font-medium text-[#000000]">
+              <strong>Technologies:</strong> Flexbox, CSS Grid, Tailwind CSS
             </p>
 
             <ul
-              class="text-[19.36px] leading-[1.4] text-[#000000] list-disc pl-4"
+              class="text-[16px] xl:text-[19.36px] leading-[1.4] text-[#000000] list-disc pl-4"
             >
-              <li>
-                Designed and implemented the full website layout based on a
-                Figma mockup
-              </li>
-
-              <li>Ensured responsiveness</li>
+              <li>Designed and implemented the full website layout</li>
+              <li>Ensured responsiveness across devices</li>
             </ul>
           </article>
 
           <!-- Project 2 -->
+
           <article
-            class="flex flex-col justify-start items-start p-[20px] gap-[12px] rounded-[18px] bg-[#E7F0EC] min-h-[330px] transition-all duration-300 hover:bg-[#4A8B70] hover:-translate-y-[4px] hover:shadow-[0_4px_12px_rgba(0,0,0,0.15)] w-[280px] h-[581px]"
+            class="flex flex-col justify-start items-start p-[20px] gap-[12px] rounded-[18px] bg-[#E7F0EC] min-h-[330px] transition-all duration-300 hover:bg-[#4A8B70] hover:-translate-y-[4px] hover:shadow-[0_4px_12px_rgba(0,0,0,0.15)]"
           >
             <div class="flex justify-between items-center w-full">
-              <span class="text-[24.2px] font-medium text-[#000000]">2025</span>
               <span
-                ><img src="heart.png" alt="heart icon" class="h-5 w-5"
-              /></span>
+                class="text-[20px] xl:text-[24.2px] font-medium text-[#000000]"
+                >2025</span
+              >
+              <img src="heart.png" alt="heart icon" class="h-5 w-5" />
             </div>
 
-            <h3 class="text-[24.2px] font-semibold text-[#000000]">
+            <h3
+              class="text-[20px] xl:text-[24.2px] font-semibold text-[#000000]"
+            >
               <a
                 href="https://github.com/Nthabi2905/space-education-hub"
                 class="hover:underline"
@@ -194,40 +243,44 @@
               </a>
             </h3>
 
-            <p class="text-[19.36px] font-medium text-[#000000] leading-[1.4]">
-              <strong>Brief:</strong> A platform that connects schools and
-              communities to South Africa’s space and STEM opportunities through
-              events, workshops, and organisational networks.
+            <p
+              class="text-[16px] xl:text-[19.36px] font-medium text-[#000000] leading-[1.4]"
+            >
+              <strong>Brief:</strong> Connects schools to South Africa’s space
+              and STEM opportunities.
             </p>
 
-            <p class="text-[19.36px] font-medium text-[#000000]">
+            <p class="text-[16px] xl:text-[19.36px] font-medium text-[#000000]">
               <strong>Technologies:</strong> React, Next.js, Tailwind CSS,
               JavaScript
             </p>
 
             <ul
-              class="text-[19.36px] leading-[1.4] text-[#000000] list-disc pl-4"
+              class="text-[16px] xl:text-[19.36px] leading-[1.4] text-[#000000] list-disc pl-4"
             >
-              <li>Designed a modern, responsive UI</li>
-
+              <li>Designed modern responsive UI</li>
               <li>Built event discovery</li>
               <li>Added calendar sync</li>
-              <li>Developed a directory</li>
+              <li>Directory feature</li>
             </ul>
           </article>
 
           <!-- Project 3 -->
+
           <article
-            class="flex flex-col justify-start items-start p-[20px] gap-[12px] rounded-[18px] bg-[#E7F0EC] min-h-[330px] transition-all duration-300 hover:bg-[#4A8B70] hover:-translate-y-[4px] hover:shadow-[0_4px_12px_rgba(0,0,0,0.15)] w-[280px] h-[581px]"
+            class="flex flex-col justify-start items-start p-[20px] gap-[12px] rounded-[18px] bg-[#E7F0EC] min-h-[330px] transition-all duration-300 hover:bg-[#4A8B70] hover:-translate-y-[4px] hover:shadow-[0_4px_12px_rgba(0,0,0,0.15)]"
           >
             <div class="flex justify-between items-center w-full">
-              <span class="text-[24.2px] font-medium text-[#000000]">2025</span>
               <span
-                ><img src="heart.png" alt="heart icon" class="h-5 w-5"
-              /></span>
+                class="text-[20px] xl:text-[24.2px] font-medium text-[#000000]"
+                >2025</span
+              >
+              <img src="heart.png" alt="heart icon" class="h-5 w-5" />
             </div>
 
-            <h3 class="text-[24.2px] font-semibold text-[#000000]">
+            <h3
+              class="text-[20px] xl:text-[24.2px] font-semibold text-[#000000]"
+            >
               <a
                 href="https://github.com/Nthabi2905/NTHMOL25550_PTO2508_A_Nthabiseng-Moloi_SDF03"
                 class="hover:underline"
@@ -236,38 +289,42 @@
               </a>
             </h3>
 
-            <p class="text-[19.36px] font-medium text-[#000000] leading-[1.4]">
-              <strong>Brief:</strong> Built a replica of an Instagram-style
-              profile page using only HTML and CSS as part of the CodeSpace
-              SDF03 Layout Challenge.
+            <p
+              class="text-[16px] xl:text-[19.36px] font-medium text-[#000000] leading-[1.4]"
+            >
+              <strong>Brief:</strong> Instagram-style UI built with pure HTML +
+              CSS.
             </p>
 
-            <p class="text-[19.36px] font-medium text-[#000000]">
-              <strong>Technologies:</strong> HTML, CSS, Flexbox, CSS Grid
+            <p class="text-[16px] xl:text-[19.36px] font-medium text-[#000000]">
+              <strong>Technologies:</strong> HTML, CSS, Flexbox, Grid
             </p>
 
             <ul
-              class="text-[19.36px] leading-[1.4] text-[#000000] list-disc pl-4"
+              class="text-[16px] xl:text-[19.36px] leading-[1.4] text-[#000000] list-disc pl-4"
             >
-              <li>Used Flexbox for profile structure and alignment</li>
-
-              <li>Implemented CSS Grid for the gallery layout</li>
-              <li>Added hover effects and a loader animation</li>
+              <li>Used Flexbox for layout</li>
+              <li>Grid for gallery</li>
+              <li>Hover effects + loader animation</li>
             </ul>
           </article>
 
           <!-- Project 4 -->
+
           <article
-            class="flex flex-col justify-start items-start p-[20px] gap-[12px] rounded-[18px] bg-[#E7F0EC] min-h-[330px] transition-all duration-300 hover:bg-[#4A8B70] hover:-translate-y-[4px] hover:shadow-[0_4px_12px_rgba(0,0,0,0.15)] w-[280px] h-[581px]"
+            class="flex flex-col justify-start items-start p-[20px] gap-[12px] rounded-[18px] bg-[#E7F0EC] min-h-[330px] transition-all duration-300 hover:bg-[#4A8B70] hover:-translate-y-[4px] hover:shadow-[0_4px_12px_rgba(0,0,0,0.15)]"
           >
             <div class="flex justify-between items-center w-full">
-              <span class="text-[24.2px] font-medium text-[#000000]">2025</span>
               <span
-                ><img src="heart.png" alt="heart icon" class="h-5 w-5"
-              /></span>
+                class="text-[20px] xl:text-[24.2px] font-medium text-[#000000]"
+                >2025</span
+              >
+              <img src="heart.png" alt="heart icon" class="h-5 w-5" />
             </div>
 
-            <h3 class="text-[24.2px] font-semibold text-[#000000]">
+            <h3
+              class="text-[20px] xl:text-[24.2px] font-semibold text-[#000000]"
+            >
               <a
                 href="https://github.com/Nthabi2905/Module_08_NTHMOL25550_PTO2508_A_Nthabiseng-Moloi_SDF04"
                 class="hover:underline"
@@ -276,366 +333,345 @@
               </a>
             </h3>
 
-            <p class="text-[19.36px] font-medium text-[#000000] leading-[1.4]">
-              <strong>Brief:</strong> Built a fully responsive multi-device
-              layout solution for the CS Footer challenge as part of CodeSpace
-              Academy’s Frontend Software Development course.
+            <p
+              class="text-[16px] xl:text-[19.36px] font-medium text-[#000000] leading-[1.4]"
+            >
+              <strong>Brief:</strong> Fully responsive multi-device layout
+              challenge.
             </p>
 
-            <p class="text-[19.36px] font-medium text-[#000000]">
-              <strong>Technologies:</strong> HTML, CSS, Flexbox, CSS Grid, Media
+            <p class="text-[16px] xl:text-[19.36px] font-medium text-[#000000]">
+              <strong>Technologies:</strong> HTML, CSS, Flexbox, Grid, Media
               Queries
             </p>
 
             <ul
-              class="text-[19.36px] leading-[1.4] text-[#000000] list-disc pl-4"
+              class="text-[16px] xl:text-[19.36px] leading-[1.4] text-[#000000] list-disc pl-4"
             >
-              <li>Used Flexbox and Grid to structure adaptive components</li>
+              <li>Used Flexbox and Grid for adaptive layout</li>
             </ul>
           </article>
         </div>
       </section>
 
-      <!--  EDUCATION + TOOLS (Two-Column Desktop)-->
+      <!-- Education & Tools Section -->
+
       <section
-        class="mt-10 xl:mt-[60px] grid grid-cols-1 xl:grid-cols-[1fr_280px] gap-6 xl:gap-[38px]"
+        class="mt-10 xl:mt-[60px] grid grid-cols-1 xl:grid-cols-[1fr_300px] gap-6 xl:gap-[38px]"
       >
-        <!-- LEFT: EDUCATION -->
+        <!-- Left side -->
+
         <div class="bg-white rounded-[24px] p-6 xl:p-[38px]">
           <h2
-            class="text-[33.88px] xl:text-[28px] font-medium text-black mb-[28px]"
+            class="text-[28px] xl:text-[33.88px] font-medium text-black mb-[28px]"
           >
             Education
           </h2>
 
-          <!-- Education 1 -->
-          <article
-            class="flex flex-col p-4 xl:p-[20px] gap-[8px] rounded-[29.04px] bg-[#E7F0EC] h-[215px] mb-[18px] transition-all duration-300 hover:bg-[#5a9b80] hover:-translate-y-1 hover:shadow-[0_4px_12px_rgba(0,0,0,0.15)] cursor-pointer h-[242.02px]"
-          >
-            <div class="grid grid-cols-1 xl:grid-cols-[320px_1fr]">
-              <!-- Left column -->
-              <div class="px-[28px] py-[30px]">
-                <p class="text-[19.36px] font-medium mb-3">
-                  Aug. 2025 – Aug. 2026
-                </p>
-                <h3 class="text-[24.2px] font-medium leading-[1] mb-2">
-                  CodeSpace Academy
-                </h3>
-                <p class="text-[19.36px] opacity-90 mb-1">
-                  Software Development
-                </p>
-                <p class="text-[19.36px] opacity-90">Part-time</p>
-              </div>
+          <div class="space-y-[20px]">
+            <!-- Education 1 -->
 
-              <!-- Right column -->
-              <div class="px-[19.36px] py-[30px] border-l-0 xl:pl-[36px]">
-                <ul class="list-disc pl-6 text-[16px] leading-[1.8]">
-                  <li>
-                    Focused on React and JavaScript to build intuitive, dynamic
-                    web applications
-                  </li>
-                  <li>
-                    Collaborated with peers on real-world personal projects,
-                    refining teamwork and coding best practices
-                  </li>
-                  <li>
-                    Gained hands-on experience with cutting-edge web
-                    technologies and development tools
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </article>
+            <article
+              class="bg-[#E7F0EC] rounded-[29.04px] p-4 xl:p-[20px] transition-all duration-300 hover:bg-[#5A9B80] hover:-translate-y-1 hover:shadow-lg"
+            >
+              <div class="grid grid-cols-1 xl:grid-cols-[300px_1fr]">
+                <!-- Left column -->
+                <div class="px-[10px] xl:px-[28px] py-[20px] xl:py-[30px]">
+                  <p class="text-[18px] xl:text-[19.36px] font-medium mb-3">
+                    Aug. 2025 – Aug. 2026
+                  </p>
+                  <h3
+                    class="text-[20px] xl:text-[24.2px] font-medium leading-[1] mb-2"
+                  >
+                    CodeSpace Academy
+                  </h3>
+                  <p class="text-[18px] xl:text-[19.36px] opacity-90 mb-1">
+                    Software Development
+                  </p>
+                  <p class="text-[18px] xl:text-[19.36px] opacity-90">
+                    Part-time
+                  </p>
+                </div>
 
-          <!-- Education 2 -->
-          <article
-            class="flex flex-col p-4 xl:p-[20px] gap-[8px] rounded-[29.04px] bg-[#E7F0EC] h-[215px] mb-[18px] transition-all duration-300 hover:bg-[#5a9b80] hover:-translate-y-1 hover:shadow-[0_4px_12px_rgba(0,0,0,0.15)] cursor-pointer h-[242.02px]"
-          >
-            <div class="grid grid-cols-1 xl:grid-cols-[320px_1fr]">
-              <!-- Left column -->
-              <div class="px-[28px] py-[30px]">
-                <p class="text-[19.36px] font-medium mb-3">Aug. 2024</p>
-                <h3 class="text-[24.2px] font-medium leading-[1] mb-2">
-                  UK Space National Academy
-                </h3>
-                <p class="text-[19.36px] opacity-90 mb-1">
-                  Space Science Outreach training
-                </p>
-                <p class="text-[19.36px] opacity-90">Full-time</p>
+                <!-- Right column -->
+                <div class="px-[10px] xl:px-[36px] py-[20px] xl:py-[30px]">
+                  <ul
+                    class="list-disc pl-6 text-[16px] xl:text-[19.36px] leading-[1.8]"
+                  >
+                    <li>Focused on React & JavaScript for dynamic web apps</li>
+                    <li>Worked on real-world collaborative projects</li>
+                    <li>Hands-on experience with modern frontend tools</li>
+                  </ul>
+                </div>
               </div>
+            </article>
 
-              <!-- Right column -->
-              <div class="px-[19.36px] py-[30px] border-l-0 xl:pl-[36px]">
-                <ul class="list-disc pl-6 text-[16px] leading-[1.8]">
-                  <li>
-                    Completed specialised training designed to strengthen public
-                    engagement with space science.
-                  </li>
-                  <li>
-                    Developed skills in communicating complex scientific
-                    concepts to diverse audiences, designing educational
-                    outreach activities, and promoting awareness of space
-                    missions, satellite applications, and STEM careers
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </article>
+            <!-- Education 2 -->
 
-          <!-- Education 3 -->
-          <article
-            class="flex flex-col p-4 xl:p-[20px] gap-[8px] rounded-[29.04px] bg-[#E7F0EC] h-[215px] mb-[18px] transition-all duration-300 hover:bg-[#5a9b80] hover:-translate-y-1 hover:shadow-[0_4px_12px_rgba(0,0,0,0.15)] cursor-pointer h-[242.02px]"
-          >
-            <div class="grid grid-cols-1 xl:grid-cols-[320px_1fr]">
-              <!-- Left column -->
-              <div class="px-[28px] py-[30px]">
-                <p class="text-[19.36px] font-medium mb-3">
-                  Aug. 2023 – Nov. 2023
-                </p>
-                <h3 class="text-[24.2px] font-medium leading-[1] mb-2">
-                  Stellenbosch University
-                </h3>
-                <p class="text-[19.36px] opacity-90 mb-1">
-                  Certificate in Science Communication
-                </p>
-                <p class="text-[19.36px] opacity-90">Full-time</p>
-              </div>
+            <article
+              class="bg-[#E7F0EC] rounded-[29.04px] p-4 xl:p-[20px] transition-all duration-300 hover:bg-[#5A9B80] hover:-translate-y-1 hover:shadow-lg"
+            >
+              <div class="grid grid-cols-1 xl:grid-cols-[300px_1fr]">
+                <div class="px-[10px] xl:px-[28px] py-[20px] xl:py-[30px]">
+                  <p class="text-[18px] xl:text-[19.36px] font-medium mb-3">
+                    Aug. 2024
+                  </p>
+                  <h3
+                    class="text-[20px] xl:text-[24.2px] font-medium leading-[1] mb-2"
+                  >
+                    UK Space National Academy
+                  </h3>
+                  <p class="text-[18px] xl:text-[19.36px] opacity-90 mb-1">
+                    Space Science Outreach Training
+                  </p>
+                  <p class="text-[18px] xl:text-[19.36px] opacity-90">
+                    Full-time
+                  </p>
+                </div>
 
-              <!-- Right column -->
-              <div class="px-[19.36px] py-[30px] border-l-0 xl:pl-[36px]">
-                <ul class="list-disc pl-6 text-[16px] leading-[1.8]">
-                  <li>
-                    A postgraduate certificate focusing on the principles and
-                    practice of effective science communication.
-                  </li>
-                  <li>
-                    Covered public understanding of science, media
-                    communication, curriculum design, stakeholder engagement,
-                    and the role of scientific literacy in society.
-                  </li>
-                </ul>
+                <div class="px-[10px] xl:px-[36px] py-[20px] xl:py-[30px]">
+                  <ul
+                    class="list-disc pl-6 text-[16px] xl:text-[19.36px] leading-[1.8]"
+                  >
+                    <li>
+                      Trained in communicating complex space science concepts
+                    </li>
+                    <li>
+                      Designed STEM outreach activities for diverse audiences
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </div>
-          </article>
+            </article>
 
-          <!-- Education 4 -->
-          <article
-            class="flex flex-col p-4 xl:p-[20px] gap-[8px] rounded-[29.04px] bg-[#E7F0EC] h-[215px] mb-[18px] transition-all duration-300 hover:bg-[#5a9b80] hover:-translate-y-1 hover:shadow-[0_4px_12px_rgba(0,0,0,0.15)] cursor-pointer h-[242.02px]"
-          >
-            <div class="grid grid-cols-1 xl:grid-cols-[320px_1fr]">
-              <!-- Left column -->
-              <div class="px-[28px] py-[30px]">
-                <p class="text-[19.36px] font-medium mb-3">
-                  Jul. 2017 – Dec. 2018
-                </p>
-                <h3 class="text-[24.2px] font-medium leading-[1] mb-2">
-                  UNISA
-                </h3>
-                <p class="text-[19.36px] opacity-90 mb-1">
-                  Postgraduate Certificate in Education
-                </p>
-                <p class="text-[19.36px] opacity-90">Full-time</p>
-              </div>
+            <!-- Education 3 -->
 
-              <!-- Right column -->
-              <div class="px-[19.36px] py-[30px] border-l-0 xl:pl-[36px]">
-                <ul class="list-disc pl-6 text-[16px] leading-[1.8]">
-                  <li>
-                    A professional teaching qualification specialising in Life
-                    Sciences and Natural Sciences for the Senior and FET Phases.
-                    Training included curriculum development, pedagogical
-                    theory, classroom management, inclusive education,
-                    assessment strategies, and practical teaching experience.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </article>
+            <article
+              class="bg-[#E7F0EC] rounded-[29.04px] p-4 xl:p-[20px] transition-all duration-300 hover:bg-[#5A9B80] hover:-translate-y-1 hover:shadow-lg"
+            >
+              <div class="grid grid-cols-1 xl:grid-cols-[300px_1fr]">
+                <div class="px-[10px] xl:px-[28px] py-[20px] xl:py-[30px]">
+                  <p class="text-[18px] xl:text-[19.36px] font-medium mb-3">
+                    Aug. 2023 – Nov. 2023
+                  </p>
+                  <h3
+                    class="text-[20px] xl:text-[24.2px] font-medium leading-[1] mb-2"
+                  >
+                    Stellenbosch University
+                  </h3>
+                  <p class="text-[18px] xl:text-[19.36px] opacity-90 mb-1">
+                    Certificate in Science Communication
+                  </p>
+                  <p class="text-[18px] xl:text-[19.36px] opacity-90">
+                    Full-time
+                  </p>
+                </div>
 
-          <!-- Education 5 -->
-          <article
-            class="flex flex-col p-4 xl:p-[20px] gap-[8px] rounded-[29.04px] bg-[#E7F0EC] h-[215px] mb-[18px] transition-all duration-300 hover:bg-[#5a9b80] hover:-translate-y-1 hover:shadow-[0_4px_12px_rgba(0,0,0,0.15)] cursor-pointer h-[242.02px]"
-          >
-            <div class="grid grid-cols-1 xl:grid-cols-[320px_1fr]">
-              <!-- Left column -->
-              <div class="px-[28px] py-[30px]">
-                <p class="text-[19.36px] font-medium mb-3">
-                  Jan. 2010 – Nov. 2014
-                </p>
-                <h3 class="text-[24.2px] font-medium leading-[1] mb-2">
-                  University of Limpopo (MEDUNSA)
-                </h3>
-                <p class="text-[19.36px] opacity-90 mb-1">
-                  Bachelor of Sciences
-                </p>
-                <p class="text-[19.36px] opacity-90">Full-time</p>
+                <div class="px-[10px] xl:px-[36px] py-[20px] xl:py-[30px]">
+                  <ul
+                    class="list-disc pl-6 text-[16px] xl:text-[19.36px] leading-[1.8]"
+                  >
+                    <li>
+                      Focused on science communication principles & practice
+                    </li>
+                    <li>
+                      Trained in public engagement, media, & education strategy
+                    </li>
+                  </ul>
+                </div>
               </div>
+            </article>
 
-              <!-- Right column -->
-              <div class="px-[19.36px] py-[30px] border-l-0 xl:pl-[36px]">
-                <ul class="list-disc pl-6 text-[16px] leading-[1.8]">
-                  <li>
-                    A multidisciplinary degree integrating molecular sciences,
-                    human biology, and psychology.
-                  </li>
-                  <li>
-                    Developed strong analytical, laboratory, and research
-                    skills, with an understanding of both biological systems and
-                    human behaviour.
-                  </li>
-                </ul>
+            <!-- Education 4 -->
+
+            <article
+              class="bg-[#E7F0EC] rounded-[29.04px] p-4 xl:p-[20px] transition-all duration-300 hover:bg-[#5A9B80] hover:-translate-y-1 hover:shadow-lg"
+            >
+              <div class="grid grid-cols-1 xl:grid-cols-[300px_1fr]">
+                <div class="px-[10px] xl:px-[28px] py-[20px] xl:py-[30px]">
+                  <p class="text-[18px] xl:text-[19.36px] font-medium mb-3">
+                    Jul. 2017 – Dec. 2018
+                  </p>
+                  <h3
+                    class="text-[20px] xl:text-[24.2px] font-medium leading-[1] mb-2"
+                  >
+                    UNISA
+                  </h3>
+                  <p class="text-[18px] xl:text-[19.36px] opacity-90 mb-1">
+                    Postgraduate Certificate in Education
+                  </p>
+                  <p class="text-[18px] xl:text-[19.36px] opacity-90">
+                    Full-time
+                  </p>
+                </div>
+
+                <div class="px-[10px] xl:px-[36px] py-[20px] xl:py-[30px]">
+                  <ul
+                    class="list-disc pl-6 text-[16px] xl:text-[19.36px] leading-[1.8]"
+                  >
+                    <li>
+                      Specialised in Life Sciences & Natural Sciences teaching
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </div>
-          </article>
+            </article>
+
+            <!-- Education 5 -->
+
+            <article
+              class="bg-[#E7F0EC] rounded-[29.04px] p-4 xl:p-[20px] transition-all duration-300 hover:bg-[#5A9B80] hover:-translate-y-1 hover:shadow-lg"
+            >
+              <div class="grid grid-cols-1 xl:grid-cols-[300px_1fr]">
+                <div class="px-[10px] xl:px-[28px] py-[20px] xl:py-[30px]">
+                  <p class="text-[18px] xl:text-[19.36px] font-medium mb-3">
+                    Jan. 2010 – Nov. 2014
+                  </p>
+                  <h3
+                    class="text-[20px] xl:text-[24.2px] font-medium leading-[1] mb-2"
+                  >
+                    University of Limpopo (MEDUNSA)
+                  </h3>
+                  <p class="text-[18px] xl:text-[19.36px] opacity-90 mb-1">
+                    Bachelor of Science
+                  </p>
+                  <p class="text-[18px] xl:text-[19.36px] opacity-90">
+                    Full-time
+                  </p>
+                </div>
+
+                <div class="px-[10px] xl:px-[36px] py-[20px] xl:py-[30px]">
+                  <ul
+                    class="list-disc pl-6 text-[16px] xl:text-[19.36px] leading-[1.8]"
+                  >
+                    <li>Studied molecular sciences, biology, and psychology</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </div>
         </div>
 
-        <!-- RIGHT: TOOLS -->
+        <!-- Tools on the right side -->
+
         <div class="bg-white rounded-[29.05px] p-6 xl:p-[38px]">
           <h2
-            class="text-[33.88px] xl:text-[28px] font-medium text-black mb-[28px]"
+            class="text-[28px] xl:text-[33.88px] font-medium text-black mb-[28px]"
           >
             Tools
           </h2>
 
           <div class="space-y-6">
-            <!-- Languages -->
+            <!-- Langauages -->
 
             <div
-              class="bg-[#E7F0EC] rounded-[29.05px] p-[24px] flex flex-col items-center gap-[18px] hover:bg-[#d0e5dd] transition-all duration-300 cursor-pointer h-[273.9px]"
+              class="bg-[#E7F0EC] rounded-[29px] p-[24px] flex flex-col items-center gap-[18px] hover:bg-[#d0e5dd] transition-all duration-300 cursor-pointer"
             >
-              <!-- Label ON TOP -->
               <span
                 class="px-4 py-1 bg-black rounded-full text-white text-[12px] mb-2"
+                >Languages</span
               >
-                Languages
-              </span>
 
-              <!-- ICON GRID (2 columns, 6 items) -->
               <div class="grid grid-cols-2 gap-[18px] place-items-center">
-                <!-- HTML5 -->
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
-                  class="w-[41.14px] h-[41.14px]"
+                  class="w-[41px]"
                 />
-
-                <!-- CSS3 -->
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
-                  class="w-[41.14px] h-[41.14px]"
+                  class="w-[41px]"
                 />
-
-                <!-- JavaScript -->
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                  class="w-[41.14px] h-[41.14px]"
+                  class="w-[41px]"
                 />
-
-                <!-- React -->
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                  class="w-[41.14px] h-[41.14px]"
+                  class="w-[41px]"
                 />
-
-                <!-- Node.js -->
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-                  class="w-[41.14px] h-[41.14px]"
+                  class="w-[41px]"
                 />
-
-                <!-- Tailwind CSS -->
                 <img
                   src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.d52e9897.svg"
-                  class="w-[41.14px] h-[41.14px]"
+                  class="w-[41px]"
                 />
               </div>
             </div>
 
             <!-- Design Tools -->
+
             <div
-              class="bg-[#E7F0EC] rounded-[24px] p-[24px] flex flex-col items-center gap-[18px] hover:bg-[#d0e5dd] transition-all duration-300 cursor-pointer h-[273.9px]"
+              class="bg-[#E7F0EC] rounded-[29px] p-[24px] flex flex-col items-center gap-[18px] hover:bg-[#d0e5dd] transition-all duration-300 cursor-pointer"
             >
-              <!-- Label ON TOP -->
               <span
                 class="px-4 py-1 bg-black rounded-full text-white text-[12px] mb-2"
+                >Design Tools</span
               >
-                Design Tools
-              </span>
 
-              <!-- ICON GRID (2 columns, 6 icons) -->
               <div class="grid grid-cols-2 gap-[18px] place-items-center">
-                <!-- Figma -->
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
-                  class="w-[41.14px] h-[41.14px]"
+                  class="w-[41px]"
                 />
-
-                <!-- Canva -->
                 <img
                   src="https://img.icons8.com/color/96/canva.png"
-                  class="w-[41.14px] h-[41.14px]"
+                  class="w-[41px]"
                 />
-
-                <!-- Adobe XD -->
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xd/xd-plain.svg"
-                  class="w-[41.14px] h-[41.14px]"
+                  class="w-[41px]"
                 />
-
-                <!-- Photoshop -->
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg"
-                  class="w-[41.14px] h-[41.14px]"
+                  class="w-[41px]"
                 />
-
-                <!-- Illustrator -->
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg"
-                  class="w-[41.14px] h-[41.14px]"
+                  class="w-[41px]"
                 />
-
-                <!-- Sketch -->
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sketch/sketch-original.svg"
-                  class="w-[41.14px] h-[41.14px]"
+                  class="w-[41px]"
                 />
               </div>
             </div>
 
             <!-- Developer Tools -->
+
             <div
-              class="bg-[#E7F0EC] rounded-[24px] p-[24px] flex flex-col items-center gap-[18px] hover:bg-[#d0e5dd] transition-all duration-300 cursor-pointer h-[273.9px]"
+              class="bg-[#E7F0EC] rounded-[29px] p-[24px] flex flex-col items-center gap-[18px] hover:bg-[#d0e5dd] transition-all duration-300 cursor-pointer"
             >
-              <!-- Label ON TOP -->
               <span
                 class="px-4 py-1 bg-black rounded-full text-white text-[12px] mb-2"
+                >Developer Tools</span
               >
-                Developer Tools
-              </span>
 
-              <!-- ICON GRID (2 columns, 6 icons) -->
               <div class="grid grid-cols-2 gap-[18px] place-items-center">
-                <!-- Git -->
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-                  class="w-[41.14px] h-[41.14px]"
+                  class="w-[41px]"
                 />
-
-                <!-- GitHub -->
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                  class="w-[41.14px] h-[41.14px]"
+                  class="w-[41px]"
                 />
-
-                <!-- VS Code -->
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
-                  class="w-[41.14px] h-[41.14px]"
+                  class="w-[41px]"
                 />
-
-                <!-- NPM -->
                 <img
                   src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
-                  class="w-[41.14px] h-[41.14px]"
+                  class="w-[41px]"
+                />
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/5968/5968866.png"
+                  class="w-[41px]"
+                />
+                <img
+                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg"
+                  class="w-[41px]"
                 />
               </div>
             </div>
@@ -761,6 +797,54 @@
           </article>
         </div>
       </section>
+
+      <!-- Footer -->
+
+      <footer
+        class="w-full bg-[#D76239] rounded-[28px] px-[28px] py-[32px] xl:px-[36px] xl:py-[38px] text-white mt-[60px] flex flex-col gap-[18px]"
+      >
+        <!-- Heading -->
+        <h2 class="text-[26px] leading-[1.3] font-semibold xl:text-[33.88px]">
+          Let’s chat! I’m ready to work on exciting projects.
+        </h2>
+
+        <!-- Contact Links Row -->
+        <div
+          class="flex flex-wrap items-center gap-[12px] xl:gap-[18px] text-[18px] xl:text-[24.2px] text-[#f8e6df]"
+        >
+          <!-- Email -->
+          <a href="mailto:lebakanthabiseng08@gmail.com" class="hover:underline">
+            lebakanthabiseng08@gmail.com
+          </a>
+
+          <span class="hidden xl:inline text-[#f8e6df]">|</span>
+
+          <!-- Phone -->
+          <a href="tel:0718412577" class="hover:underline"> 071 841 2577 </a>
+
+          <span class="hidden xl:inline text-[#f8e6df]">|</span>
+
+          <!-- LinkedIn -->
+          <a
+            href="https://www.linkedin.com/in/nthabisengmoloi/"
+            target="_blank"
+            class="hover:underline"
+          >
+            LinkedIn
+          </a>
+
+          <span class="hidden xl:inline text-[#f8e6df]">|</span>
+
+          <!-- GitHub -->
+          <a
+            href="https://github.com/Nthabi2905"
+            target="_blank"
+            class="hover:underline"
+          >
+            GitHub
+          </a>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
