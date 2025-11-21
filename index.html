@@ -3,744 +3,746 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nthabiseng - SDFPP</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Nthabiseng Moloi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
   </head>
-  <body class="bg-[#3F3D3D] flex justify-center">
+  <body
+    class="min-h-screen bg-[#3F3D3D] lg:bg-[#5C5C5C] flex justify-center py-4 lg:py-12"
+  >
     <main
-      class="w-full max-w-[402px] sm:max-w-[600px] md:max-w-[800px] lg:max-w-[1100px] xl:max-w-[1440px] mx-auto px-4 sm:px-6 md:px-8 lg:px-10 xl:px-[60px] py-6 xl:py-[60px]"
+      class="w-full max-w-[402px] lg:max-w-[1200px] mx-auto bg-[#3F3D3D] lg:bg-[#5C5C5C] relative px-4 lg:px-0"
     >
-      <!-- Header -->
-      <section
-        class="grid grid-cols-1 xl:grid-cols-[320px_1fr] gap-6 xl:gap-[38px] items-start xl:h-[300px]"
+      <!-- Header Section -->
+      <header
+        class="flex flex-col lg:flex-row items-start gap-3 lg:gap-6 px-[42px] lg:px-8 pt-[18px] lg:pt-8 pb-4 lg:pb-8"
       >
-        <!-- Profile Image -->
-        <div class="w-full h-full rounded-[29px] overflow-hidden">
-          <img src="assets/Project.jpg" class="w-full h-full object-cover" />
-        </div>
-        <!-- Profile Text Block -->
+        <img
+          src="assets/Project.jpg"
+          alt="Profile photo"
+          class="w-[147px] h-[137px] lg:w-[180px] lg:h-[180px] rounded-xl object-cover flex-shrink-0"
+        />
         <div
-          class="bg-white rounded-[29px] p-6 xl:p-[38px] flex flex-col gap-4 xl:gap-[18px] h-full"
+          class="bg-white rounded-xl p-3 lg:p-6 w-full lg:flex-1 min-h-[137px] lg:min-h-[180px] flex flex-col justify-between"
         >
-          <h1 class="text-[28px] xl:text-[32px] font-semibold text-black">
-            Nthabiseng Moloi
-          </h1>
-          <p class="text-[18px] xl:text-[16px] leading-[1.6] text-[#3f3d3d]">
-            <strong
-              >Educator | Science Communicator | Beginner Software
-              Developer</strong
-            ><br />
-            I'm a STEM enthusiast transitioning into a Software Developer.
-            Passionate about tech, innovation, and empowering others.
-          </p>
-        </div>
-      </section>
-      <section
-        class="grid grid-cols-1 xl:grid-cols-2 gap-6 xl:gap-[46.21px] mt-6 xl:mt-[38px]"
-      >
-        <!-- Proficiency Section -->
-        <div class="bg-white rounded-[29.04px] p-6 xl:p-[38px]">
-          <h2 class="text-[28px] xl:text-[33.88px] font-semibold mb-4">
-            Proficiency
-          </h2>
-          <!-- Levels -->
-          <div class="text-[18px] xl:text-[24.2px] font-medium mb-4 flex gap-4">
-            <span>Beginner</span> <span>Intermediate</span>
-            <span>Advance*</span>
+          <div>
+            <h1
+              class="text-base lg:text-2xl font-semibold text-black leading-tight mb-1.5 lg:mb-3"
+            >
+              Nthabiseng Moloi
+            </h1>
+            <p
+              class="text-[10px] lg:text-sm text-[#5C5C5C] leading-[1.5] lg:leading-relaxed"
+            >
+              Passionate about bridging the gap between science, technology, and
+              education through creative learning experiences.
+            </p>
           </div>
-          <!-- Skill list -->
-          <div
-            class="grid grid-cols-[120px_1fr] gap-y-6 xl:gap-y-8 xl:gap-[46.21px] w-full"
+        </div>
+      </header>
+
+      <div class="px-[42px] lg:px-8 space-y-4 lg:space-y-6">
+        <!-- Proficiency & Skills Row (Desktop: Side by Side) -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6">
+          <!-- Proficiency Section -->
+          <section class="bg-white rounded-xl p-3 lg:p-5">
+            <h2
+              class="text-sm lg:text-base font-medium text-black mb-2 lg:mb-3"
+            >
+              Proficiency
+            </h2>
+            <p class="text-[10px] lg:text-xs text-black mb-4">
+              Beginner-Intermediate-Advance*
+            </p>
+
+            <div class="flex gap-4 lg:gap-6">
+              <div class="flex flex-col gap-2.5 lg:gap-4 w-[59px] lg:w-[100px]">
+                <span
+                  class="text-[10px] lg:text-xs font-medium text-black text-left lg:text-left"
+                  >JavaScript</span
+                >
+                <span
+                  class="text-[10px] lg:text-xs font-medium text-black text-left lg:text-left"
+                  >React</span
+                >
+                <span
+                  class="text-[10px] lg:text-xs font-medium text-black text-left lg:text-left"
+                  >Node.js</span
+                >
+                <span
+                  class="text-[10px] lg:text-xs font-medium text-black text-left lg:text-left"
+                  >HTML + CSS</span
+                >
+              </div>
+              <div class="flex flex-col gap-3.5 lg:gap-5 flex-1">
+                <div
+                  class="w-[50px] lg:w-[180px] h-[11px] lg:h-[14px] bg-[#4A8B70] rounded"
+                ></div>
+                <div
+                  class="w-[30px] lg:w-[120px] h-[11px] lg:h-[14px] bg-[#4A8B70] rounded"
+                ></div>
+                <div
+                  class="w-[30px] lg:w-[100px] h-[11px] lg:h-[14px] bg-[#4A8B70] rounded"
+                ></div>
+                <div
+                  class="w-[100px] lg:w-[220px] h-[11px] lg:h-[14px] bg-[#4A8B70] rounded"
+                ></div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Skills Section -->
+          <section class="bg-white rounded-xl p-3 lg:p-5">
+            <h2
+              class="text-sm lg:text-base font-medium text-black mb-4 lg:mb-5"
+            >
+              Skills
+            </h2>
+            <div class="flex flex-wrap gap-2 lg:gap-3">
+              <span
+                class="bg-[#E7F0EC] text-black px-2.5 lg:px-4 py-1 lg:py-1.5 rounded-full text-[10px] lg:text-xs"
+                >Software Development</span
+              >
+              <span
+                class="bg-[#E7F0EC] text-black px-2.5 lg:px-4 py-1 lg:py-1.5 rounded-full text-[10px] lg:text-xs"
+                >Project Management</span
+              >
+              <span
+                class="bg-[#E7F0EC] text-black px-2.5 lg:px-4 py-1 lg:py-1.5 rounded-full text-[10px] lg:text-xs"
+                >UI Design</span
+              >
+              <span
+                class="bg-[#E7F0EC] text-black px-2.5 lg:px-4 py-1 lg:py-1.5 rounded-full text-[10px] lg:text-xs"
+                >Problem Solving</span
+              >
+              <span
+                class="bg-[#E7F0EC] text-black px-2.5 lg:px-4 py-1 lg:py-1.5 rounded-full text-[10px] lg:text-xs"
+                >Git And Version Control</span
+              >
+              <span
+                class="bg-[#E7F0EC] text-black px-2.5 lg:px-4 py-1 lg:py-1.5 rounded-full text-[10px] lg:text-xs"
+                >Web Development</span
+              >
+              <span
+                class="bg-[#E7F0EC] text-black px-2.5 lg:px-4 py-1 lg:py-1.5 rounded-full text-[10px] lg:text-xs"
+                >Team Collaboration</span
+              >
+              <span
+                class="bg-[#E7F0EC] text-black px-2.5 lg:px-4 py-1 lg:py-1.5 rounded-full text-[10px] lg:text-xs"
+                >Functional Programming</span
+              >
+              <span
+                class="bg-[#E7F0EC] text-black px-2.5 lg:px-4 py-1 lg:py-1.5 rounded-full text-[10px] lg:text-xs"
+                >Science Communication</span
+              >
+            </div>
+          </section>
+        </div>
+
+        <!-- Projects Section -->
+        <section class="bg-white rounded-xl p-3 lg:p-6">
+          <h2
+            class="text-sm lg:text-xl font-medium text-black mb-4 lg:mb-6 text-center"
           >
-            <!-- JavaScript -->
-            <span class="text-[18px] xl:text-[24.2px] font-medium"
-              >JavaScript</span
-            >
-            <div class="h-[20px] xl:h-[26.62px] bg-[#e5e5e5] rounded-[6px]">
-              <div class="h-full bg-[#4a8b70] rounded-[6px] w-[20%]"></div>
-            </div>
-            <!-- React -->
-            <span class="text-[18px] xl:text-[24.2px] font-medium">React</span>
-            <div class="h-[20px] xl:h-[26.62px] bg-[#e5e5e5] rounded-[6px]">
-              <div class="h-full bg-[#4a8b70] rounded-[6px] w-[20%]"></div>
-            </div>
-            <!-- Node.js -->
-            <span class="text-[18px] xl:text-[24.2px] font-medium"
-              >Node.js</span
-            >
-            <div class="h-[20px] xl:h-[26.62px] bg-[#e5e5e5] rounded-[6px]">
-              <div class="h-full bg-[#4a8b70] rounded-[6px] w-[30%]"></div>
-            </div>
-            <!-- HTML + CSS -->
-            <span
-              class="text-[18px] xl:text-[24.2px] font-medium whitespace-nowrap"
-            >
-              HTML + CSS
-            </span>
-            <div class="h-[20px] xl:h-[26.62px] bg-[#e5e5e5] rounded-[6px]">
-              <div class="h-full bg-[#4a8b70] rounded-[6px] w-[85%]"></div>
-            </div>
-          </div>
-        </div>
-        <!-- Skills -->
-        <div class="bg-white rounded-[29.04px] p-6 xl:p-[38px]">
-          <h2 class="text-[28px] xl:text-[33.88px] font-semibold mb-4">
-            Skills
+            Projects
           </h2>
-          <div class="flex flex-wrap gap-3">
-            <span
-              class="px-4 py-2 text-[18px] xl:text-[24.2px] rounded-full bg-[#e7f0ec]"
-            >
-              Software Development
-            </span>
-            <span
-              class="px-4 py-2 text-[18px] xl:text-[24.2px] rounded-full bg-[#e7f0ec]"
-            >
-              Project Management
-            </span>
-            <span
-              class="px-4 py-2 text-[18px] xl:text-[24.2px] rounded-full bg-[#e7f0ec]"
-            >
-              Stakeholder Relations
-            </span>
-            <span
-              class="px-4 py-2 text-[18px] xl:text-[24.2px] rounded-full bg-[#e7f0ec]"
-            >
-              UI Design
-            </span>
-            <span
-              class="px-4 py-2 text-[18px] xl:text-[24.2px] rounded-full bg-[#e7f0ec]"
-            >
-              Problem Solving
-            </span>
-            <span
-              class="px-4 py-2 text-[18px] xl:text-[24.2px] rounded-full bg-[#e7f0ec]"
-            >
-              Git And Version Control
-            </span>
-            <span
-              class="px-4 py-2 text-[18px] xl:text-[24.2px] rounded-full bg-[#e7f0ec]"
-            >
-              Web Development
-            </span>
-            <span
-              class="px-4 py-2 text-[18px] xl:text-[24.2px] rounded-full bg-[#e7f0ec]"
-            >
-              Team Collaboration
-            </span>
-            <span
-              class="px-4 py-2 text-[18px] xl:text-[24.2px] rounded-full bg-[#e7f0ec]"
-            >
-              Functional Programming
-            </span>
-            <span
-              class="px-4 py-2 text-[18px] xl:text-[24.2px] rounded-full bg-[#e7f0ec]"
-            >
-              Public Speaking
-            </span>
-            <span
-              class="px-4 py-2 text-[18px] xl:text-[24.2px] rounded-full bg-[#e7f0ec]"
-            >
-              Science Communication
-            </span>
+          <div class="space-y-3.5 lg:space-y-5">
+            <div class="grid grid-cols-2 lg:grid-cols-4 gap-2.5 lg:gap-4">
+              <!-- Project 1 -->
+              <article class="bg-[#4A8B70] text-white rounded-xl p-2.5 lg:p-4">
+                <div class="flex justify-between items-center mb-2">
+                  <span class="text-xs lg:text-sm text-[#E7F0EC]">2025</span>
+                  <svg
+                    class="h-5 w-5 lg:h-6 lg:w-6 text-red-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <a
+                  href="https://github.com/Nthabi2905/SDFPP"
+                  class="hover:underline text-xs lg:text-sm font-semibold block mb-2"
+                >
+                  Portfolio Website
+                </a>
+                <p
+                  class="text-[9.7px] lg:text-[11px] text-[#EBF9F2] mb-2 leading-relaxed"
+                >
+                  <strong>Brief:</strong> Developed a personal portfolio website
+                  using a Figma design as the primary reference.
+                </p>
+                <h4
+                  class="text-[9.7px] lg:text-[11px] font-bold text-[#E7F0EC] mb-1"
+                >
+                  Technologies:
+                </h4>
+                <p class="text-[9.7px] lg:text-[11px] text-white mb-2">
+                  React, Tailwind CSS
+                </p>
+                <h4
+                  class="text-[9.7px] lg:text-[11px] font-bold text-[#E7F0EC] mb-1"
+                >
+                  Responsibilities:
+                </h4>
+                <p
+                  class="text-[9.7px] lg:text-[11px] text-[#E7F0EC] leading-relaxed"
+                >
+                  Designed and implemented the full website, ensuring
+                  responsiveness and accessibility.
+                </p>
+              </article>
+
+              <!-- Project 2 -->
+              <article class="bg-[#E7F0EC] rounded-xl p-2.5 lg:p-4">
+                <div class="flex justify-between items-center mb-2">
+                  <span class="text-xs lg:text-sm text-black">2025</span>
+                  <svg
+                    class="h-5 w-5 lg:h-6 lg:w-6 text-red-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <a
+                  href="https://github.com/Nthabi2905/space-education-hub"
+                  class="hover:underline text-xs lg:text-sm font-semibold block mb-2 text-black"
+                >
+                  Space Education Hub
+                </a>
+                <p
+                  class="text-[9.7px] lg:text-[11px] text-black mb-2 leading-relaxed"
+                >
+                  <strong>Brief:</strong> Connects schools to South Africa's
+                  space and STEM opportunities.
+                </p>
+                <h4
+                  class="text-[9.7px] lg:text-[11px] font-bold text-black mb-1"
+                >
+                  Technologies:
+                </h4>
+                <p class="text-[9.7px] lg:text-[11px] text-black mb-2">
+                  React, Next.js, Tailwind CSS, JavaScript
+                </p>
+                <h4
+                  class="text-[9.7px] lg:text-[11px] font-bold text-black mb-1"
+                >
+                  Responsibilities:
+                </h4>
+                <p
+                  class="text-[9.7px] lg:text-[11px] text-black leading-relaxed"
+                >
+                  Team project for KPN x CodeSpace Hackathon. Designed
+                  responsive UI, built event discovery, calendar sync, and
+                  directory features.
+                </p>
+              </article>
+
+              <!-- Project 3 -->
+              <article class="bg-[#E7F0EC] rounded-xl p-2.5 lg:p-4">
+                <div class="flex justify-between items-center mb-2">
+                  <span class="text-xs lg:text-sm text-black">2025</span>
+                  <svg
+                    class="h-5 w-5 lg:h-6 lg:w-6 text-red-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <a
+                  href="https://github.com/Nthabi2905/NTHMOL25550_PTO2508_A_Nthabiseng-Moloi_SDF03"
+                  class="hover:underline text-xs lg:text-sm font-semibold block mb-2 text-black"
+                >
+                  CodeSpace Pets Instagram
+                </a>
+                <p
+                  class="text-[9.7px] lg:text-[11px] text-black mb-2 leading-relaxed"
+                >
+                  <strong>Brief:</strong> Instagram-style UI built with pure
+                  HTML + CSS.
+                </p>
+                <h4
+                  class="text-[9.7px] lg:text-[11px] font-bold text-black mb-1"
+                >
+                  Technologies:
+                </h4>
+                <p class="text-[9.7px] lg:text-[11px] text-black mb-2">
+                  HTML, CSS, Flexbox, Grid
+                </p>
+                <h4
+                  class="text-[9.7px] lg:text-[11px] font-bold text-black mb-1"
+                >
+                  Responsibilities:
+                </h4>
+                <p
+                  class="text-[9.7px] lg:text-[11px] text-black leading-relaxed"
+                >
+                  Used Flexbox for layout, implemented Grid for gallery, added
+                  hover effects and loader animation.
+                </p>
+              </article>
+
+              <!-- Project 4 -->
+              <article class="bg-[#E7F0EC] rounded-xl p-2.5 lg:p-4">
+                <div class="flex justify-between items-center mb-2">
+                  <span class="text-xs lg:text-sm text-black">2026</span>
+                  <svg
+                    class="h-5 w-5 lg:h-6 lg:w-6 text-red-400"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M3.172 5.172a4 4 0 015.656 0L10 6.343l1.172-1.171a4 4 0 115.656 5.656L10 17.657l-6.828-6.829a4 4 0 010-5.656z"
+                      clip-rule="evenodd"
+                    />
+                  </svg>
+                </div>
+                <a
+                  href="https://github.com/Nthabi2905/Module_08_NTHMOL25550_PTO2508_A_Nthabiseng-Moloi_SDF04"
+                  class="hover:underline text-xs lg:text-sm font-semibold block mb-2 text-black"
+                >
+                  Responsive Layout Project
+                </a>
+                <p
+                  class="text-[9.7px] lg:text-[11px] text-black mb-2 leading-relaxed"
+                >
+                  <strong>Brief:</strong> Fully responsive multi-device layout
+                  challenge.
+                </p>
+                <h4
+                  class="text-[9.7px] lg:text-[11px] font-bold text-black mb-1"
+                >
+                  Technologies:
+                </h4>
+                <p class="text-[9.7px] lg:text-[11px] text-black mb-2">
+                  HTML, CSS, Flexbox, Grid, Media Queries
+                </p>
+                <h4
+                  class="text-[9.7px] lg:text-[11px] font-bold text-black mb-1"
+                >
+                  Responsibilities:
+                </h4>
+                <p
+                  class="text-[9.7px] lg:text-[11px] text-black leading-relaxed"
+                >
+                  Used Flexbox and Grid for adaptive layout.
+                </p>
+              </article>
+            </div>
           </div>
+        </section>
+
+        <!-- Education & Tools Row (Desktop: Side by Side) -->
+        <div class="grid grid-cols-1 lg:grid-cols-[1.5fr_1fr] gap-4 lg:gap-6">
+          <!-- Education Section -->
+          <section class="bg-[#F0F0F0] rounded-xl p-3 lg:p-5">
+            <h2
+              class="text-sm lg:text-base font-medium text-black mb-3 lg:mb-4"
+            >
+              Education
+            </h2>
+            <div class="space-y-2.5 lg:space-y-3">
+              <!-- Education 1 -->
+              <article class="bg-[#4A8B70] text-white rounded-xl p-3 lg:p-4">
+                <div class="flex justify-between items-center mb-3">
+                  <span class="text-[9px] lg:text-[10px]"
+                    >Aug. 2025 – Aug. 2026</span
+                  >
+                  <span
+                    class="bg-[#D76239] text-white px-2 py-0.5 rounded-full text-[9px] lg:text-[10px] font-medium"
+                  >
+                    most recent
+                  </span>
+                </div>
+                <div class="lg:grid lg:grid-cols-2 lg:gap-3">
+                  <div>
+                    <h3 class="text-[11px] lg:text-xs font-semibold mb-1">
+                      CodeSpace Academy
+                    </h3>
+                    <p
+                      class="text-[9px] lg:text-[10px] text-[#EBF9F2] mb-2 lg:mb-1"
+                    >
+                      Part-time
+                    </p>
+                  </div>
+                  <div>
+                    <ul
+                      class="text-[9px] lg:text-[10px] text-white space-y-1 list-disc list-inside leading-snug"
+                    >
+                      <li>
+                        Focused on React & JavaScript for dynamic web apps
+                      </li>
+                      <li>Worked on real-world collaborative projects</li>
+                      <li>Hands-on experience with modern frontend tools</li>
+                    </ul>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Education 2 -->
+              <article class="bg-[#E7F0EC] rounded-xl p-3 lg:p-4">
+                <div class="flex justify-between items-center mb-3">
+                  <span class="text-[9px] lg:text-[10px] text-black"
+                    >Jul. 2017 – Dec. 2018</span
+                  >
+                </div>
+                <div class="lg:grid lg:grid-cols-2 lg:gap-3">
+                  <div>
+                    <h3
+                      class="text-[11px] lg:text-xs font-semibold text-black mb-1"
+                    >
+                      UNISA
+                    </h3>
+                    <p
+                      class="text-[9px] lg:text-[10px] text-[#3F3D3D] mb-2 lg:mb-1"
+                    >
+                      Full-time
+                    </p>
+                  </div>
+                  <div>
+                    <ul
+                      class="text-[9px] lg:text-[10px] text-black space-y-1 list-disc list-inside leading-snug"
+                    >
+                      <li>
+                        Specialised in Life Sciences & Natural Sciences teaching
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </article>
+
+              <!-- Education 3 -->
+              <article class="bg-[#E7F0EC] rounded-xl p-3 lg:p-4">
+                <div class="flex justify-between items-center mb-3">
+                  <span class="text-[9px] lg:text-[10px] text-black"
+                    >Jan. 2010 – Nov. 2014</span
+                  >
+                </div>
+                <div class="lg:grid lg:grid-cols-2 lg:gap-3">
+                  <div>
+                    <h3
+                      class="text-[11px] lg:text-xs font-semibold text-black mb-1"
+                    >
+                      University of Limpopo (MEDUNSA)
+                    </h3>
+                    <p
+                      class="text-[9px] lg:text-[10px] text-[#3F3D3D] mb-2 lg:mb-1"
+                    >
+                      Full-time
+                    </p>
+                  </div>
+                  <div>
+                    <ul
+                      class="text-[9px] lg:text-[10px] text-black space-y-1 list-disc list-inside leading-snug"
+                    >
+                      <li>
+                        Studied molecular sciences, biology, and psychology.
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </section>
+
+          <!-- Tools Section -->
+          <section class="bg-white rounded-xl p-3 lg:p-5">
+            <h2
+              class="text-xs lg:text-base font-medium text-black text-center mb-3 lg:mb-5"
+            >
+              Tools
+            </h2>
+            <div
+              class="flex flex-row lg:flex-col justify-center gap-4 lg:gap-6"
+            >
+              <!-- Languages -->
+              <div class="relative">
+                <div
+                  class="bg-[#E7F0EC] rounded-md p-3 lg:p-4 w-[76px] lg:w-full h-[104px] lg:h-auto grid grid-cols-2 lg:grid-cols-6 gap-3 lg:gap-4 place-items-center"
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
+                    class="w-[17px] lg:w-[32px]"
+                    alt="HTML5"
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
+                    class="w-[17px] lg:w-[32px]"
+                    alt="CSS3"
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                    class="w-[17px] lg:w-[32px]"
+                    alt="JavaScript"
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                    class="w-[17px] lg:w-[32px]"
+                    alt="React"
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+                    class="w-[17px] lg:w-[32px]"
+                    alt="Node.js"
+                  />
+                  <img
+                    src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.d52e9897.svg"
+                    class="w-[17px] lg:w-[32px]"
+                    alt="Tailwind"
+                  />
+                </div>
+                <span
+                  class="absolute -top-1 left-1/2 -translate-x-1/2 bg-black text-[#E7F0EC] px-1.5 py-0.5 rounded-full text-[5px] lg:text-[8px] font-medium"
+                >
+                  languages
+                </span>
+              </div>
+
+              <!-- Dev Tools -->
+              <div class="relative">
+                <div
+                  class="bg-[#E7F0EC] rounded-md p-3 lg:p-4 w-[76px] lg:w-full h-[104px] lg:h-auto grid grid-cols-2 lg:grid-cols-6 gap-3 lg:gap-4 place-items-center"
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                    class="w-[41px] lg:w-[50px]"
+                    alt="Git"
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                    class="w-[41px] lg:w-[50px]"
+                    alt="GitHub"
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                    class="w-[41px] lg:w-[50px]"
+                    alt="VS Code"
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
+                    class="w-[41px] lg:w-[50px]"
+                    alt="NPM"
+                  />
+                  <img
+                    src="https://cdn-icons-png.flaticon.com/512/5968/5968866.png"
+                    class="w-[41px] lg:w-[50px]"
+                    alt="Stripe"
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg"
+                    class="w-[41px] lg:w-[50px]"
+                    alt="Postman"
+                  />
+                </div>
+                <span
+                  class="absolute -top-1 left-1/2 -translate-x-1/2 bg-black text-white px-1.5 py-0.5 rounded-full text-[5px] lg:text-[8px] font-medium"
+                >
+                  software
+                </span>
+              </div>
+
+              <!-- Design Tools -->
+              <div class="relative">
+                <div
+                  class="bg-[#E7F0EC] rounded-md p-3 lg:p-4 w-[76px] lg:w-full h-[104px] lg:h-auto grid grid-cols-2 lg:grid-cols-6 gap-3 lg:gap-4 place-items-center"
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
+                    class="w-[41px] lg:w-[50px]"
+                    alt="Figma"
+                  />
+                  <img
+                    src="https://img.icons8.com/color/96/canva.png"
+                    class="w-[41px] lg:w-[50px]"
+                    alt="Canva"
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xd/xd-plain.svg"
+                    class="w-[41px] lg:w-[50px]"
+                    alt="Adobe XD"
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg"
+                    class="w-[41px] lg:w-[50px]"
+                    alt="Photoshop"
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg"
+                    class="w-[41px] lg:w-[50px]"
+                    alt="Illustrator"
+                  />
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sketch/sketch-original.svg"
+                    class="w-[41px] lg:w-[50px]"
+                    alt="Sketch"
+                  />
+                </div>
+                <span
+                  class="absolute -top-1 left-1/2 -translate-x-1/2 bg-black text-[#E7F0EC] px-1.5 py-0.5 rounded-full text-[5px] lg:text-[8px] font-medium"
+                >
+                  design
+                </span>
+              </div>
+            </div>
+          </section>
         </div>
-      </section>
-      <!-- Project Section -->
-      <section
-        class="bg-white rounded-[29.04px] p-6 xl:p-[38px] mt-10 xl:mt-[60px]"
+
+        <!-- Experience Section -->
+        <section class="bg-[#F0F0F0] rounded-xl p-3 lg:p-5">
+          <h2 class="text-sm lg:text-base font-medium text-black mb-3 lg:mb-4">
+            Experience
+          </h2>
+          <div class="space-y-2.5 lg:space-y-3">
+            <!-- Experience 1 -->
+            <article class="bg-[#4A8B70] text-white rounded-xl p-3 lg:p-4">
+              <div class="flex justify-between items-center mb-3">
+                <span class="text-[9px] lg:text-[10px]"
+                  >Jan. 2025 – Present</span
+                >
+                <span
+                  class="bg-[#D76239] text-white px-2 py-0.5 rounded-full text-[9px] lg:text-[10px] font-medium"
+                >
+                  most recent
+                </span>
+              </div>
+              <div class="lg:grid lg:grid-cols-2 lg:gap-3">
+                <div>
+                  <h3 class="text-[11px] lg:text-xs font-semibold mb-1">
+                    Director – Somerset College Saturday School
+                  </h3>
+                  <p
+                    class="text-[9px] lg:text-[10px] text-[#EBF9F2] mb-2 lg:mb-1"
+                  >
+                    Somerset West | Full-time
+                  </p>
+                </div>
+                <div>
+                  <ul
+                    class="text-[9px] lg:text-[10px] text-white space-y-1 list-disc list-inside leading-snug"
+                  >
+                    <li>Oversee budgeting, staffing, and partnerships.</li>
+                    <li>
+                      Expanded programme outreach to township schools and
+                      established donor relations.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <!-- Experience 2 -->
+            <article class="bg-[#E7F0EC] rounded-xl p-3 lg:p-4">
+              <div class="flex justify-between items-center mb-3">
+                <span class="text-[9px] lg:text-[10px] text-black"
+                  >Jan. 2021 – Dec. 2024</span
+                >
+              </div>
+              <div class="lg:grid lg:grid-cols-2 lg:gap-3">
+                <div>
+                  <h3
+                    class="text-[11px] lg:text-xs font-semibold text-black mb-1"
+                  >
+                    Science Engagement Officer – SANSA
+                  </h3>
+                  <p
+                    class="text-[9px] lg:text-[10px] text-[#3F3D3D] mb-2 lg:mb-1"
+                  >
+                    Hermanus | Full-time
+                  </p>
+                </div>
+                <div>
+                  <ul
+                    class="text-[9px] lg:text-[10px] text-black space-y-1 list-disc list-inside leading-snug"
+                  >
+                    <li>Empowered learners to build and program robots.</li>
+                    <li>
+                      Coordinated outreach and awareness campaigns to promote
+                      space science.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+
+            <!-- Experience 3 -->
+            <article class="bg-[#E7F0EC] rounded-xl p-3 lg:p-4">
+              <div class="flex justify-between items-center mb-3">
+                <span class="text-[9px] lg:text-[10px] text-black"
+                  >Apr. 2016 – Dec. 2019</span
+                >
+              </div>
+              <div class="lg:grid lg:grid-cols-2 lg:gap-3">
+                <div>
+                  <h3
+                    class="text-[11px] lg:text-xs font-semibold text-black mb-1"
+                  >
+                    Teacher – Free State Department of Education
+                  </h3>
+                  <p
+                    class="text-[9px] lg:text-[10px] text-[#3F3D3D] mb-2 lg:mb-1"
+                  >
+                    Free State | Full-time
+                  </p>
+                </div>
+                <div>
+                  <ul
+                    class="text-[9px] lg:text-[10px] text-black space-y-1 list-disc list-inside leading-snug"
+                  >
+                    <li>
+                      Taught Natural Sciences, Physical Sciences, and Life
+                      Sciences.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+
+      <!-- Footer CTA -->
+      <footer
+        class="bg-[#D76239] text-white rounded-xl p-3 lg:p-5 mx-[42px] lg:mx-8 mt-4 lg:mt-6 mb-4 lg:mb-8"
       >
         <h2
-          class="text-[28px] xl:text-[33.88px] font-medium text-[#000000] mb-4 xl:mb-[28px] text-center"
+          class="text-sm lg:text-lg font-medium text-white mb-3 lg:mb-4 leading-relaxed"
         >
-          Projects
+          Let's chat! I'm ready to work on exciting projects
         </h2>
-        <!-- Responsive Grid -->
         <div
-          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4"
-        >
-          <!-- Project 1 -->
-          <article
-            class="flex flex-col justify-start items-start p-[20px] gap-[12px] rounded-[18px] bg-[#E7F0EC] min-h-[330px] transition-all duration-300 hover:bg-[#4A8B70] hover:-translate-y-[4px] hover:shadow-[0_4px_12px_rgba(0,0,0,0.15)]"
-          >
-            <div class="flex justify-between items-center w-full">
-              <span
-                class="text-[20px] xl:text-[24.2px] font-medium text-[#000000]"
-                >2025</span
-              >
-              <img src="assets/heart.png" alt="heart icon" class="h-5 w-5" />
-            </div>
-            <h3
-              class="text-[20px] xl:text-[24.2px] font-semibold text-[#000000]"
-            >
-              <a
-                href="https://github.com/Nthabi2905/SDFPP"
-                class="hover:underline"
-              >
-                Portfolio Website
-              </a>
-            </h3>
-            <p
-              class="text-[16px] xl:text-[19.36px] font-medium text-[#000000] leading-[1.4]"
-            >
-              <strong>Brief:</strong> Developed a personal portfolio website
-              using a Figma design as the primary reference.
-            </p>
-            <p class="text-[16px] xl:text-[19.36px] font-medium text-[#000000]">
-              <strong>Technologies:</strong> Flexbox, CSS Grid, Tailwind CSS
-            </p>
-            <ul
-              class="text-[16px] xl:text-[19.36px] leading-[1.4] text-[#000000] list-disc pl-4"
-            >
-              <li>Designed and implemented the full website layout</li>
-              <li>Ensured responsiveness across devices</li>
-            </ul>
-          </article>
-          <!-- Project 2 -->
-          <article
-            class="flex flex-col justify-start items-start p-[20px] gap-[12px] rounded-[18px] bg-[#E7F0EC] min-h-[330px] transition-all duration-300 hover:bg-[#4A8B70] hover:-translate-y-[4px] hover:shadow-[0_4px_12px_rgba(0,0,0,0.15)]"
-          >
-            <div class="flex justify-between items-center w-full">
-              <span
-                class="text-[20px] xl:text-[24.2px] font-medium text-[#000000]"
-                >2025</span
-              >
-              <img src="assets/heart.png" alt="heart icon" class="h-5 w-5" />
-            </div>
-            <h3
-              class="text-[20px] xl:text-[24.2px] font-semibold text-[#000000]"
-            >
-              <a
-                href="https://github.com/Nthabi2905/space-education-hub"
-                class="hover:underline"
-              >
-                Space Education Hub
-              </a>
-            </h3>
-            <p
-              class="text-[16px] xl:text-[19.36px] font-medium text-[#000000] leading-[1.4]"
-            >
-              <strong>Brief:</strong> Connects schools to South Africa’s space
-              and STEM opportunities.
-            </p>
-            <p class="text-[16px] xl:text-[19.36px] font-medium text-[#000000]">
-              <strong>Technologies:</strong> React, Next.js, Tailwind CSS,
-              JavaScript
-            </p>
-            <ul
-              class="text-[16px] xl:text-[19.36px] leading-[1.4] text-[#000000] list-disc pl-4"
-            >
-              <li>Designed modern responsive UI</li>
-              <li>Built event discovery</li>
-              <li>Added calendar sync</li>
-              <li>Directory feature</li>
-            </ul>
-          </article>
-          <!-- Project 3 -->
-          <article
-            class="flex flex-col justify-start items-start p-[20px] gap-[12px] rounded-[18px] bg-[#E7F0EC] min-h-[330px] transition-all duration-300 hover:bg-[#4A8B70] hover:-translate-y-[4px] hover:shadow-[0_4px_12px_rgba(0,0,0,0.15)]"
-          >
-            <div class="flex justify-between items-center w-full">
-              <span
-                class="text-[20px] xl:text-[24.2px] font-medium text-[#000000]"
-                >2025</span
-              >
-              <img src="assets/heart.png" alt="heart icon" class="h-5 w-5" />
-            </div>
-            <h3
-              class="text-[20px] xl:text-[24.2px] font-semibold text-[#000000]"
-            >
-              <a
-                href="https://github.com/Nthabi2905/NTHMOL25550_PTO2508_A_Nthabiseng-Moloi_SDF03"
-                class="hover:underline"
-              >
-                CodeSpace Pets Instagram
-              </a>
-            </h3>
-            <p
-              class="text-[16px] xl:text-[19.36px] font-medium text-[#000000] leading-[1.4]"
-            >
-              <strong>Brief:</strong> Instagram-style UI built with pure HTML +
-              CSS.
-            </p>
-            <p class="text-[16px] xl:text-[19.36px] font-medium text-[#000000]">
-              <strong>Technologies:</strong> HTML, CSS, Flexbox, Grid
-            </p>
-            <ul
-              class="text-[16px] xl:text-[19.36px] leading-[1.4] text-[#000000] list-disc pl-4"
-            >
-              <li>Used Flexbox for layout</li>
-              <li>Grid for gallery</li>
-              <li>Hover effects + loader animation</li>
-            </ul>
-          </article>
-          <!-- Project 4 -->
-          <article
-            class="flex flex-col justify-start items-start p-[20px] gap-[12px] rounded-[18px] bg-[#E7F0EC] min-h-[330px] transition-all duration-300 hover:bg-[#4A8B70] hover:-translate-y-[4px] hover:shadow-[0_4px_12px_rgba(0,0,0,0.15)]"
-          >
-            <div class="flex justify-between items-center w-full">
-              <span
-                class="text-[20px] xl:text-[24.2px] font-medium text-[#000000]"
-                >2025</span
-              >
-              <img src="assets/heart.png" alt="heart icon" class="h-5 w-5" />
-            </div>
-            <h3
-              class="text-[20px] xl:text-[24.2px] font-semibold text-[#000000]"
-            >
-              <a
-                href="https://github.com/Nthabi2905/Module_08_NTHMOL25550_PTO2508_A_Nthabiseng-Moloi_SDF04"
-                class="hover:underline"
-              >
-                Responsive Layout Project
-              </a>
-            </h3>
-            <p
-              class="text-[16px] xl:text-[19.36px] font-medium text-[#000000] leading-[1.4]"
-            >
-              <strong>Brief:</strong> Fully responsive multi-device layout
-              challenge.
-            </p>
-            <p class="text-[16px] xl:text-[19.36px] font-medium text-[#000000]">
-              <strong>Technologies:</strong> HTML, CSS, Flexbox, Grid, Media
-              Queries
-            </p>
-            <ul
-              class="text-[16px] xl:text-[19.36px] leading-[1.4] text-[#000000] list-disc pl-4"
-            >
-              <li>Used Flexbox and Grid for adaptive layout</li>
-            </ul>
-          </article>
-        </div>
-      </section>
-      <!-- Education & Tools Section -->
-      <section
-        class="mt-10 xl:mt-[60px] grid grid-cols-1 xl:grid-cols-[1fr_300px] gap-6 xl:gap-[38px]"
-      >
-        <!-- Left side -->
-        <div class="bg-white rounded-[24px] p-6 xl:p-[38px]">
-          <h2
-            class="text-[28px] xl:text-[33.88px] font-medium text-black mb-[28px]"
-          >
-            Education
-          </h2>
-          <div class="space-y-[20px]">
-            <!-- Education 1 -->
-            <article
-              class="bg-[#E7F0EC] rounded-[29.04px] p-4 xl:p-[20px] transition-all duration-300 hover:bg-[#5A9B80] hover:-translate-y-1 hover:shadow-lg"
-            >
-              <div class="grid grid-cols-1 xl:grid-cols-[300px_1fr]">
-                <!-- Left column -->
-                <div class="px-[10px] xl:px-[28px] py-[20px] xl:py-[30px]">
-                  <p class="text-[18px] xl:text-[19.36px] font-medium mb-3">
-                    Aug. 2025 – Aug. 2026
-                  </p>
-                  <h3
-                    class="text-[20px] xl:text-[24.2px] font-medium leading-[1] mb-2"
-                  >
-                    CodeSpace Academy
-                  </h3>
-                  <p class="text-[18px] xl:text-[19.36px] opacity-90 mb-1">
-                    Software Development
-                  </p>
-                  <p class="text-[18px] xl:text-[19.36px] opacity-90">
-                    Part-time
-                  </p>
-                </div>
-                <!-- Right column -->
-                <div class="px-[10px] xl:px-[36px] py-[20px] xl:py-[30px]">
-                  <ul
-                    class="list-disc pl-6 text-[16px] xl:text-[19.36px] leading-[1.8]"
-                  >
-                    <li>Focused on React & JavaScript for dynamic web apps</li>
-                    <li>Worked on real-world collaborative projects</li>
-                    <li>Hands-on experience with modern frontend tools</li>
-                  </ul>
-                </div>
-              </div>
-            </article>
-            <!-- Education 2 -->
-            <article
-              class="bg-[#E7F0EC] rounded-[29.04px] p-4 xl:p-[20px] transition-all duration-300 hover:bg-[#5A9B80] hover:-translate-y-1 hover:shadow-lg"
-            >
-              <div class="grid grid-cols-1 xl:grid-cols-[300px_1fr]">
-                <div class="px-[10px] xl:px-[28px] py-[20px] xl:py-[30px]">
-                  <p class="text-[18px] xl:text-[19.36px] font-medium mb-3">
-                    Aug. 2024
-                  </p>
-                  <h3
-                    class="text-[20px] xl:text-[24.2px] font-medium leading-[1] mb-2"
-                  >
-                    UK Space National Academy
-                  </h3>
-                  <p class="text-[18px] xl:text-[19.36px] opacity-90 mb-1">
-                    Space Science Outreach Training
-                  </p>
-                  <p class="text-[18px] xl:text-[19.36px] opacity-90">
-                    Full-time
-                  </p>
-                </div>
-                <div class="px-[10px] xl:px-[36px] py-[20px] xl:py-[30px]">
-                  <ul
-                    class="list-disc pl-6 text-[16px] xl:text-[19.36px] leading-[1.8]"
-                  >
-                    <li>
-                      Trained in communicating complex space science concepts
-                    </li>
-                    <li>
-                      Designed STEM outreach activities for diverse audiences
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </article>
-            <!-- Education 3 -->
-            <article
-              class="bg-[#E7F0EC] rounded-[29.04px] p-4 xl:p-[20px] transition-all duration-300 hover:bg-[#5A9B80] hover:-translate-y-1 hover:shadow-lg"
-            >
-              <div class="grid grid-cols-1 xl:grid-cols-[300px_1fr]">
-                <div class="px-[10px] xl:px-[28px] py-[20px] xl:py-[30px]">
-                  <p class="text-[18px] xl:text-[19.36px] font-medium mb-3">
-                    Aug. 2023 – Nov. 2023
-                  </p>
-                  <h3
-                    class="text-[20px] xl:text-[24.2px] font-medium leading-[1] mb-2"
-                  >
-                    Stellenbosch University
-                  </h3>
-                  <p class="text-[18px] xl:text-[19.36px] opacity-90 mb-1">
-                    Certificate in Science Communication
-                  </p>
-                  <p class="text-[18px] xl:text-[19.36px] opacity-90">
-                    Full-time
-                  </p>
-                </div>
-                <div class="px-[10px] xl:px-[36px] py-[20px] xl:py-[30px]">
-                  <ul
-                    class="list-disc pl-6 text-[16px] xl:text-[19.36px] leading-[1.8]"
-                  >
-                    <li>
-                      Focused on science communication principles & practice
-                    </li>
-                    <li>
-                      Trained in public engagement, media, & education strategy
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </article>
-            <!-- Education 4 -->
-            <article
-              class="bg-[#E7F0EC] rounded-[29.04px] p-4 xl:p-[20px] transition-all duration-300 hover:bg-[#5A9B80] hover:-translate-y-1 hover:shadow-lg"
-            >
-              <div class="grid grid-cols-1 xl:grid-cols-[300px_1fr]">
-                <div class="px-[10px] xl:px-[28px] py-[20px] xl:py-[30px]">
-                  <p class="text-[18px] xl:text-[19.36px] font-medium mb-3">
-                    Jul. 2017 – Dec. 2018
-                  </p>
-                  <h3
-                    class="text-[20px] xl:text-[24.2px] font-medium leading-[1] mb-2"
-                  >
-                    UNISA
-                  </h3>
-                  <p class="text-[18px] xl:text-[19.36px] opacity-90 mb-1">
-                    Postgraduate Certificate in Education
-                  </p>
-                  <p class="text-[18px] xl:text-[19.36px] opacity-90">
-                    Full-time
-                  </p>
-                </div>
-                <div class="px-[10px] xl:px-[36px] py-[20px] xl:py-[30px]">
-                  <ul
-                    class="list-disc pl-6 text-[16px] xl:text-[19.36px] leading-[1.8]"
-                  >
-                    <li>
-                      Specialised in Life Sciences & Natural Sciences teaching
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </article>
-            <!-- Education 5 -->
-            <article
-              class="bg-[#E7F0EC] rounded-[29.04px] p-4 xl:p-[20px] transition-all duration-300 hover:bg-[#5A9B80] hover:-translate-y-1 hover:shadow-lg"
-            >
-              <div class="grid grid-cols-1 xl:grid-cols-[300px_1fr]">
-                <div class="px-[10px] xl:px-[28px] py-[20px] xl:py-[30px]">
-                  <p class="text-[18px] xl:text-[19.36px] font-medium mb-3">
-                    Jan. 2010 – Nov. 2014
-                  </p>
-                  <h3
-                    class="text-[20px] xl:text-[24.2px] font-medium leading-[1] mb-2"
-                  >
-                    University of Limpopo (MEDUNSA)
-                  </h3>
-                  <p class="text-[18px] xl:text-[19.36px] opacity-90 mb-1">
-                    Bachelor of Science
-                  </p>
-                  <p class="text-[18px] xl:text-[19.36px] opacity-90">
-                    Full-time
-                  </p>
-                </div>
-                <div class="px-[10px] xl:px-[36px] py-[20px] xl:py-[30px]">
-                  <ul
-                    class="list-disc pl-6 text-[16px] xl:text-[19.36px] leading-[1.8]"
-                  >
-                    <li>Studied molecular sciences, biology, and psychology</li>
-                  </ul>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-        <!-- Tools on the right side -->
-        <div class="bg-white rounded-[29.05px] p-6 xl:p-[38px]">
-          <h2
-            class="text-[28px] xl:text-[33.88px] font-medium text-black mb-[28px]"
-          >
-            Tools
-          </h2>
-          <div class="space-y-6">
-            <!-- Langauages -->
-            <div
-              class="bg-[#E7F0EC] rounded-[29px] p-[24px] flex flex-col items-center gap-[18px] hover:bg-[#d0e5dd] transition-all duration-300 cursor-pointer"
-            >
-              <span
-                class="px-4 py-1 bg-black rounded-full text-white text-[12px] mb-2"
-                >Languages</span
-              >
-              <div class="grid grid-cols-2 gap-[18px] place-items-center">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
-                  class="w-[41px]"
-                />
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
-                  class="w-[41px]"
-                />
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-                  class="w-[41px]"
-                />
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-                  class="w-[41px]"
-                />
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-                  class="w-[41px]"
-                />
-                <img
-                  src="https://tailwindcss.com/_next/static/media/tailwindcss-mark.d52e9897.svg"
-                  class="w-[41px]"
-                />
-              </div>
-            </div>
-            <!-- Design Tools -->
-            <div
-              class="bg-[#E7F0EC] rounded-[29px] p-[24px] flex flex-col items-center gap-[18px] hover:bg-[#d0e5dd] transition-all duration-300 cursor-pointer"
-            >
-              <span
-                class="px-4 py-1 bg-black rounded-full text-white text-[12px] mb-2"
-                >Design Tools</span
-              >
-              <div class="grid grid-cols-2 gap-[18px] place-items-center">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg"
-                  class="w-[41px]"
-                />
-                <img
-                  src="https://img.icons8.com/color/96/canva.png"
-                  class="w-[41px]"
-                />
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/xd/xd-plain.svg"
-                  class="w-[41px]"
-                />
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg"
-                  class="w-[41px]"
-                />
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/illustrator/illustrator-plain.svg"
-                  class="w-[41px]"
-                />
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sketch/sketch-original.svg"
-                  class="w-[41px]"
-                />
-              </div>
-            </div>
-            <!-- Developer Tools -->
-            <div
-              class="bg-[#E7F0EC] rounded-[29px] p-[24px] flex flex-col items-center gap-[18px] hover:bg-[#d0e5dd] transition-all duration-300 cursor-pointer"
-            >
-              <span
-                class="px-4 py-1 bg-black rounded-full text-white text-[12px] mb-2"
-                >Developer Tools</span
-              >
-              <div class="grid grid-cols-2 gap-[18px] place-items-center">
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-                  class="w-[41px]"
-                />
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                  class="w-[41px]"
-                />
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
-                  class="w-[41px]"
-                />
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
-                  class="w-[41px]"
-                />
-                <img
-                  src="https://cdn-icons-png.flaticon.com/512/5968/5968866.png"
-                  class="w-[41px]"
-                />
-                <img
-                  src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg"
-                  class="w-[41px]"
-                />
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- Experience Section -->
-      <section
-        class="mt-10 xl:mt-[60px] bg-white rounded-[29.04px] p-6 xl:p-[38px] mt-10 xl:mt-[60px]"
-      >
-        <h2 class="text-[33.88px] font-semibold text-black mb-[28px]">
-          Experience
-        </h2>
-        <div class="space-y-[28px]">
-          <!-- Current Role -->
-          <article
-            class="w-full rounded-[28px] bg-[#E7F0EC] text-black overflow-hidden transition-all duration-300 hover:bg-[#5a9b80]"
-          >
-            <div class="grid grid-cols-1 xl:grid-cols-[320px_1fr]">
-              <!-- Left side -->
-              <div class="px-[28px] py-[30px]">
-                <p class="text-[19.36px] font-medium mb-2">2025 – Present</p>
-                <h3 class="text-[24.2px] font-semibold leading-[1] mb-1">
-                  Director – Somerset College Saturday School
-                </h3>
-                <p class="text-[19.36px] opacity-90">
-                  Somerset College | Part-time
-                </p>
-              </div>
-              <!-- Right side -->
-              <div class="relative px-[28px] py-[30px] xl:pl-[36px]">
-                <!-- MOST RECENT BADGE -->
-                <span
-                  class="absolute top-[30px] right-[28px] bg-[#D76239] text-white px-4 py-[6px] rounded-full text-[12px]"
-                >
-                  Most Recent
-                </span>
-                <ul class="list-disc pl-6 text-[19.3px] leading-[1.8]">
-                  <li>
-                    Lead planning and implement of academic programmes for
-                    Grades 10–12.
-                  </li>
-                  <li>
-                    Oversee budgeting, staffing, and strategic partnerships.
-                  </li>
-                  <li>
-                    Expanded programme outreach to township schools and
-                    established donor relations.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </article>
-          <!-- SANSA -->
-          <article
-            class="w-full rounded-[28px] bg-[#E7F0EC] text-black overflow-hidden transition-all duration-300 hover:bg-[#5a9b80]"
-          >
-            <div class="grid grid-cols-1 xl:grid-cols-[320px_1fr]">
-              <!-- Left side -->
-              <div class="px-[28px] py-[30px]">
-                <p class="text-[19.36px] font-medium mb-2">2021 – 2024</p>
-                <h3 class="text-[24.2px] font-semibold leading-[1] mb-1">
-                  Science Engagement Officer
-                </h3>
-                <p class="text-[19.36px] text-[#3F3D3D]">SANSA | Full-time</p>
-              </div>
-              <!-- Right side -->
-              <div class="px-[28px] py-[30px] xl:pl-[36px]">
-                <ul class="list-disc pl-6 text-[19.3px] leading-[1.8]">
-                  <li>Empowered learners to build and program robots.</li>
-                  <li>
-                    Coordinated national outreach and awareness campaigns
-                    promoting space science.
-                  </li>
-                  <li>
-                    Managed SANSA’s Instagram & Facebook pages, significantly
-                    boosting engagement.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </article>
-          <!-- TEACHER -->
-          <article
-            class="w-full rounded-[28px] bg-[#E7F0EC] text-black overflow-hidden transition-all duration-300 hover:bg-[#5a9b80]"
-          >
-            <div class="grid grid-cols-1 xl:grid-cols-[320px_1fr]">
-              <!-- Left side -->
-              <div class="px-[28px] py-[30px]">
-                <p class="text-[19.36px] font-medium mb-2">2016 – 2019</p>
-                <h3 class="text-[24.2px] font-semibold leading-[1] mb-1">
-                  Teacher
-                </h3>
-                <p class="text-[19.36px] text-[#3F3D3D]">
-                  Free State Department of Education | Full-time
-                </p>
-              </div>
-              <!-- Right side -->
-              <div class="px-[28px] py-[30px] xl:pl-[36px]">
-                <ul class="list-disc pl-6 text-[19.3px] leading-[1.8]">
-                  <li>
-                    Taught Natural Sciences, Physical Sciences, and Life
-                    Sciences.
-                  </li>
-                  <li>
-                    Facilitated practical experiments and inquiry-based learning
-                    activities.
-                  </li>
-                  <li>
-                    Supported learners through differentiated teaching and
-                    continuous assessment.
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </article>
-        </div>
-      </section>
-      <!-- Footer -->
-      <footer
-        class="w-full bg-[#D76239] rounded-[28px] px-[28px] py-[32px] xl:px-[36px] xl:py-[38px] text-white mt-[60px] flex flex-col gap-[18px]"
-      >
-        <!-- Heading -->
-        <h2 class="text-[26px] leading-[1.3] font-semibold xl:text-[33.88px]">
-          Let’s chat! I’m ready to work on exciting projects.
-        </h2>
-        <!-- Contact Links Row -->
-        <div
-          class="flex flex-wrap items-center gap-[12px] xl:gap-[18px] text-[18px] xl:text-[24.2px] text-[#f8e6df]"
+          class="flex flex-col lg:flex-row items-start lg:items-center gap-1 lg:gap-3 text-[10px] lg:text-sm text-[#DDDDDD]"
         >
           <!-- Email -->
           <a href="mailto:lebakanthabiseng08@gmail.com" class="hover:underline">
             lebakanthabiseng08@gmail.com
           </a>
-          <span class="hidden xl:inline text-[#f8e6df]">|</span>
-          <!-- Phone -->
-          <a href="tel:0718412577" class="hover:underline"> 071 841 2577 </a>
-          <span class="hidden xl:inline text-[#f8e6df]">|</span>
+          <span class="hidden lg:inline text-[#f8e6df]">|</span>
+
           <!-- LinkedIn -->
           <a
             href="https://www.linkedin.com/in/nthabisengmoloi/"
@@ -749,7 +751,8 @@
           >
             LinkedIn
           </a>
-          <span class="hidden xl:inline text-[#f8e6df]">|</span>
+          <span class="hidden lg:inline text-[#f8e6df]">|</span>
+
           <!-- GitHub -->
           <a
             href="https://github.com/Nthabi2905"
