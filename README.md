@@ -137,15 +137,6 @@ I showcased this in my recorded presentation.
 
 ---
 
-## 🎥 Presentation Video
-
-My project walkthrough video (5–10 minutes) can be accessed here:
-
-👉 **Google Drive Link:** _Add your link here_  
-_(Make sure sharing is set to “Anyone with the link can view”)_
-
----
-
 ## 📂 File Structure
 
 index.html
