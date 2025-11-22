@@ -20,19 +20,10 @@ The aim was to:
 
 ---
 
-## 🖥️ Live Demo
+## 🎥 Project Walkthrough Video
 
-_(Add your deployed link here if you host it)_  
-👉 Coming Soon
-
----
-
-## 📸 Screenshots
-
-_(Optional — add these if you want)_
-
-- Desktop View
-- Mobile View
+You can watch the full walkthrough here:  
+[▶️ Click to view the video](https://drive.google.com/file/d/1cRoF2Beqf3lja3iqoDzITQMV3UxQSirw/view?usp=sharing)
 
 ---
 
@@ -88,7 +79,6 @@ _(Optional — add these if you want)_
 ### 🔹 **7. Footer With Clickable Links**
 
 - Email (mailto)
-- Phone number (tap-to-call)
 - LinkedIn
 - GitHub
 - Mobile and desktop layout
